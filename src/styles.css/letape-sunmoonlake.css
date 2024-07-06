@@ -1,0 +1,196 @@
+/************* Letape Sun Moon Lake Banner CSS  *************/
+.letape-sunmoonlake .letape-sunmoonlake-banner .letape-sunmoonlake-header {
+    background-image: url(../assets/img/about-letape-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px 0 0 0!important;
+}
+
+.letape-sunmoonlake .letape-sunmoonlake-banner .letape-sunmoonlake-header h1 {
+    color: #fff;
+    background-color: #121212;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+/* Banner-2 */
+.letape-sunmoonlake .letape-sunmoonlake-banner .letape-sunmoonlake-banner-2 {
+    padding: 200px 0;
+    background-image: url('../assets/img/letape-sunmoonlake-banne2-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.letape-sunmoonlake .letape-sunmoonlake-banner .letape-sunmoonlake-banner-2 img {
+    width: 13%;
+    height: auto;
+}
+
+.letape-sunmoonlake .letape-sunmoonlake-banner .letape-sunmoonlake-banner-2 h2 {
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.letape-sunmoonlake .letape-sunmoonlake-banner .letape-sunmoonlake-banner-2 h3 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.letape-sunmoonlake .letape-sunmoonlake-banner .letape-sunmoonlake-banner-2 p {
+    font-size: 20px;
+    color: #fff;
+    margin: 20px auto;
+    line-height: 2;
+    letter-spacing: 3px;
+}
+
+
+
+/************* Letape Sun Moon Lake Description CSS  *************/
+.letape-sunmoonlake .letape-sunmoonlake-desc h2 {
+    font-size: 40px;
+}
+
+.letape-sunmoonlake .letape-sunmoonlake-desc p {
+    margin: 30px auto;
+    font-size: 20px;
+    line-height: 2;
+    width: 75%;
+}
+
+.letape-sunmoonlake .letape-sunmoonlake-desc img {
+    width: 100%;
+    height: auto;
+}
+
+
+/************* Letape Sun Moon Lake Season CSS  *************/
+.letape-sunmoonlake .season  {
+    margin: 50px auto;
+}
+
+.letape-sunmoonlake .season h1 {
+    font-size: 50px;
+}
+
+.letape-sunmoonlake a {
+    text-decoration: none;
+}
+
+.letape-sunmoonlake .season .season-bx {
+    text-align: center;
+}
+
+.letape-sunmoonlake .season .season-bx img {
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    z-index: -1;
+}
+
+.letape-sunmoonlake .season .season-bx h2 {
+    font-size: 50px;
+}
+
+.letape-sunmoonlake .season .season-bx h3 {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 1  00;
+}
+
+.letape-sunmoonlake .season .season-bx p {
+    text-align: start;
+    line-height: 1.5;
+}
+/* Season Box 2 */
+
+
+.letape-sunmoonlake .season .season-bx2 h4 {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+
+.letape-sunmoonlake .season .season-bx2 p {
+    font-size: 20px;
+    line-height: 2;
+    color: #fff;
+}
+
+.letape-sunmoonlake .season .season-bx2 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    
+}
+
+.letape-sunmoonlake .season .season-bx2 h4 {
+    padding: 170px 30px;
+}
+.letape-sunmoonlake .season .season-bx2 p {
+    padding: 0 10px;
+}
+
+.letape-sunmoonlake .season .season-bx2::before {
+    content: "";
+    background: linear-gradient(90.21deg, #000 -5.91%, #121212 111.58%);
+    opacity: 0.85;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    transition: 0.4s ease-in-out;
+}
+.letape-sunmoonlake .season .season-bx2:hover::before {
+    height: 100%;
+}
+.letape-sunmoonlake .season .season-bx2 .season-txtx {
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    width: 100%;
+}
+.letape-sunmoonlake .season .season-bx2:hover .season-txtx {
+    top: 50%;
+    opacity: 1;
+}
+.letape-sunmoonlake .season .season-bx2 .season-txtx h4 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1.1em;
+}
+
+.letape-sunmoonlake .season .season-bx2-1 {
+    background-image: url('../assets/img/letape-sunmoonlake-season-img5.jpg');
+}
+
+.letape-sunmoonlake .season .season-bx2-2 {
+    background-image: url('../assets/img/letape-sunmoonlake-season-img6.jpg');
+}
+
+.letape-sunmoonlake .season .season-bx2-3 {
+    background-image: url('../assets/img/letape-sunmoonlake-season-img7.jpg');
+}
+
+.letape-sunmoonlake .season .season-bx2-4 {
+    background-image: url('../assets/img/letape-sunmoonlake-season-img8.jpg');
+}

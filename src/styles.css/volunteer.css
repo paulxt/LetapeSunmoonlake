@@ -1,0 +1,104 @@
+/************* Volunteer Banner CSS *************/
+.volunteer .volunteer-banner .volunteer-header {
+    background-image: url(../assets/img/volunteer-banner-bg.JPG);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px 0 0 0!important;
+}
+
+.volunteer .volunteer-banner .volunteer-header h1 {
+    color: #fff;
+    background-color: #121212;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.volunteer .volunteer-banner .volunteer-banner-images {
+    margin: 100px auto;
+}
+
+.volunteer .volunteer-banner img {
+
+}
+
+.volunteer .volunteer-banner .img-odd {
+    position: relative;
+    bottom: 60px;
+}
+
+.volunteer .volunteer-banner .img-even {
+    position: relative;
+    top: 60px;
+}
+
+
+
+/************* Volunteer Job CSS *************/
+.volunteer .volunteer-job h2 {
+    font-size: 50px;
+}
+
+.volunteer .volunteer-job p {
+    font-size: 25px;
+    margin: 40px auto;
+}
+
+.volunteer .volunteer-job span img {
+    width: 5%;
+    height: auto;
+    margin-right: 30px;
+}
+
+.volunteer .volunteer-job .text-even {
+    position: relative;
+    left: 40%;
+}
+
+/************* Volunteer Gift CSS *************/
+.volunteer .volunteer-gift .gift-bx {
+    padding: 30px 70px;
+}
+
+.volunteer .volunteer-gift h2 {
+    font-size: 45px;
+}
+
+.volunteer .volunteer-gift h3 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.volunteer .volunteer-gift ul {
+    margin-top: 30px;
+}
+
+.volunteer .volunteer-gift ul li {
+    font-size: 25px;
+    line-height: 3;
+}
+
+.volunteer .volunteer-gift button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    letter-spacing: 0.8px;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.volunteer .volunteer-gift button svg {
+    font-size: 25px;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+.volunteer .volunteer-gift button:hover svg {
+    margin-left: 25px;
+}

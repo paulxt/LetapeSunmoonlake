@@ -1,0 +1,63 @@
+/************* Letape Du Tour Banner CSS  *************/
+.letape-du-tour .letape-du-tour-banner .letape-du-tour-header {
+    background-image: url(../assets/img/letape-du-tour-banner-bg1.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px 0 0 0;
+}
+
+.letape-du-tour .letape-du-tour-banner .letape-du-tour-header h1 {
+    color: #fff;
+    background-color: #121212;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+
+.letape-du-tour .text-stroke {
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: transparent;
+}
+
+.letape-du-tour .text-stroke-reverse {
+    -webkit-text-stroke: 1px #000;
+    -webkit-text-fill-color: transparent;
+}
+
+.letape-du-tour .letape-du-tour-banner .banner-2 {
+    padding: 300px 0;
+    background-image: url(../assets/img/letape-du-tour-banner-bg2.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.letape-du-tour .letape-du-tour-banner .banner-2 h1 {
+    font-size: 60px;
+}
+
+
+/************* Letape Du Tour Introduction CSS  *************/
+.letape-du-tour .letape-du-tour-introduction iframe {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.letape-du-tour .letape-du-tour-introduction .col-md-6 {
+    padding: 100px 20px;
+}
+
+.letape-du-tour .letape-du-tour-introduction h3 {
+    font-size: 40px;
+}
+
+.letape-du-tour .letape-du-tour-introduction p {
+    font-size: 20px;
+}

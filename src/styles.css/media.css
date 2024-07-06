@@ -1,0 +1,87 @@
+/************* Media Banner CSS  *************/
+.media-page .media-banner .media-header {
+    background-image: url(../assets/img/about-letape-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px 0 0 0;
+}
+
+.media-page .media-banner .media-header h1 {
+    color: #fff;
+    background-color: #121212;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+/************* Media Video CSS  *************/
+.media-page .video-section video {
+    width: 100%;
+    height: auto;
+}
+
+
+/************* Media Photo CSS  *************/
+.media-page .photo-section {
+    position: relative;
+}
+
+.media-page .photo-section .nav.nav-pills {
+    width: 73%;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: rgb(255 255 255 / 10%);
+    overflow: hidden;
+}
+.media-page .photo-section .nav.nav-pills .nav-item {
+    width: 50%;
+}
+.media-page .photo-section .nav.nav-pills .nav-link {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 17px 0;
+    color: #fff;
+    width: 100%;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    z-index: 0;
+}
+.media-page .photo-section .nav.nav-pills .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90.21deg, #FFFF00 -5.91%, #121212 111.58%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+.media-page .photo-section .nav.nav-pills .nav-link.active::before {
+    width: 100% !important;
+}
+.media-page .photo-section .nav.nav-pills .nav-link.active {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.media-page .photo-section .nav-link#projects-tabs-tab-first {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 55px 0px 0px 55px;
+}
+.media-page .photo-section .nav-link#projects-tabs-tab-second {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0 55px 55px 0;
+}
+
+.media-page .photo-section .img-bx {
+    position: relative;
+    cursor: pointer;
+}

@@ -1,0 +1,51 @@
+/************* Become Partner Banner CSS  *************/
+.become-part .become-part-banner .become-part-header {
+    background-image: url(../assets/img/become-part-bg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px 0 0 0!important;
+}
+
+.become-part .become-part-banner .become-part-header h1 {
+    color: #fff;
+    background-color: #121212;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.become-part .become-part-banner2 {
+    background-image: url('../assets/img/become-partner-banner2-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0 200px 0!important;
+}
+
+.become-part .become-part-banner2 .become-part-txtx {
+    position: relative;
+    left: 10%;
+}
+
+.become-part .become-part-banner2 h2 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.become-part .become-part-banner2 p {
+    margin: 30px auto;
+    font-size: 25px;
+    list-style: 7px!important;
+}
+
+.become-part .become-part-banner2 button {
+    background: #fff;
+    color: #121212;
+    padding: 8px 23px;
+    font-weight: 500;
+}

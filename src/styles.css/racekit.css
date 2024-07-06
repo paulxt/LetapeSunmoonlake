@@ -1,0 +1,232 @@
+/************* Race Kit CSS  *************/
+.sign-up-gift ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.event-title {
+    padding: 10px;
+    font-size: 50px;
+    border-bottom: 10px solid #FFFF00;
+    width: 220px;
+}
+
+.race-kit .gift-card {
+    border: 3px solid #FFFF00;
+    /* padding: 10px 30px; */
+    height: 100%;
+}
+
+.race-kit .gift-card .sm-text {
+    font-size: 20px;
+}
+
+.race-kit .gift-card .bone {
+    position: relative;
+    left: 15%;
+}
+
+.race-kit .gift-card .gift-75-center {
+    position: relative;
+    left: 12.5%;
+}
+
+/************* Race Kit Banner CSS  *************/
+.racekit-banner .racekit-header {
+    background-image: url(../assets/img/race-kit-bg.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px 0 0 0;
+}
+.racekit-banner .racekit-header h1 {
+    color: #fff;
+    background-color: #121212;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 80px;
+}
+/************* Race Kit  Gift CSS  *************/
+.racekit-gift .nav.nav-pills {
+    width: 72%;
+    margin: 0 auto;
+    border-radius: 50px;
+    background-color: rgb(255 255 255 / 10%);
+    overflow: hidden;
+}
+.racekit-gift .nav.nav-pills .nav-item {
+    width: 33.33333%;
+}
+.racekit-gift .nav.nav-pills .nav-link {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 17px 0;
+    color: #fff;
+    width: 100%;
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    font-weight: 500;
+    position: relative;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+    z-index: 0;
+}
+.racekit-gift .nav.nav-pills .nav-link::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90.21deg, #FFFF00 -5.91%, #121212 111.58%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+.racekit-gift .nav.nav-pills .nav-link.active::before {
+    width: 100% !important;
+}
+.racekit-gift .nav.nav-pills .nav-link.active {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.racekit-gift .nav-link#projects-tabs-tab-first {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 55px 0px 0px 55px;
+}
+.racekit-gift .nav-link#projects-tabs-tab-second {
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+.racekit-gift .nav-link#projects-tabs-tab-third {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 0 55px 55px 0;
+}
+
+
+/************* Race Kit Sign Up Gift CSS  *************/
+.race-kit .sign-up-gift h2 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    margin: 3rem auto;
+}
+
+.race-kit .sign-up-gift h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFFF00;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.race-kit .sign-up-gift h3:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom:#FFFF00 solid 4px;; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.race-kit .sign-up-gift p {
+    font-size: 20px;
+}
+
+.race-kit .sign-up-gift ul li {
+    line-height: 3;
+}
+
+.race-kit .gift-card button {
+    font-weight: 700;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 28px;
+    font-size: 18px;
+    margin-left: 18px;
+    position: relative;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+.race-kit .gift-card button span {
+    z-index: 1;
+}
+.race-kit .gift-card button::before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    background-color: #fff;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: 0.3s ease-in-out;
+}
+.race-kit .gift-card button:hover {
+    color: #121212;
+}
+.race-kit .gift-card button:hover::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/************* Race Kit Finisher Gift CSS  *************/
+.race-kit .finisher-gift h2 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    margin: 3rem auto;
+}
+
+.race-kit .finisher-gift h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFFF00;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.race-kit .finisher-gift h3:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom:#FFFF00 solid 4px;; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.race-kit .finisher-gift p {
+    font-size: 20px;
+}
+
+
+/************* Race Kit Add On Gift CSS  *************/
+.race-kit .add-on h2 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    margin: 3rem auto;
+}
+
+.race-kit .add-on h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #FFFF00;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.race-kit .add-on h3:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    margin: 0 auto; /* This will center the border. */
+    width: 30%; /* Change this to whatever width you want. */
+    padding-top: 20px; /* This creates some space between the element and the border. */
+    border-bottom:#FFFF00 solid 4px;; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.race-kit .add-on p {
+    font-size: 20px;
+}

@@ -1,0 +1,119 @@
+/* English Fonts */
+@font-face {
+  font-family: Galibier;
+  src: url('./assets/font/Galibier-Bold.otf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Galibier;
+  src: url('./assets/font/Galibier-Regular.otf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Galibier;
+  src: url('./assets/font/Galibier-Light.otf');
+  font-weight: 400;
+}
+
+/* Chinese Fonts */
+@font-face {
+  font-family: alibaba;
+  src: url('./assets/font/Alibaba-PuHuiTi-Heavy.ttf');
+  font-weight: 900;
+}
+@font-face {
+  font-family: alibaba;
+  src: url('./assets/font/Alibaba-PuHuiTi-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: alibaba;
+  src: url('./assets/font/Alibaba-PuHuiTi-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: alibaba;
+  src: url('./assets/font/Alibaba-PuHuiTi-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: alibaba;
+  src: url('./assets/font/Alibaba-PuHuiTi-Light.ttf');
+  font-weight: 300;
+}
+
+/* Default CSS */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: #121212 !important;
+  color: #fff !important;
+  font-family: 'Galibier',alibaba ,sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+p, a, li, button, ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+@media (min-width:1700px) {
+	main .container {
+		max-width: 100%;
+		padding: 0 150px;
+	}
+}
+
+p.success {
+  color: green;
+}
+
+p.danger {
+  color: red;
+}
+
+.theme-color {
+  color: #FFFF00;
+}

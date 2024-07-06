@@ -1,0 +1,300 @@
+/************* About Tu De France Banner CSS  *************/
+.about-tdf-banner .about-tdf-header {
+    background-image: url(../assets/img/about-tdf-banner.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 500px 0 0 0;
+}
+
+.about-tdf-banner .about-tdf-header h1 {
+    color: #fff;
+    background-color: #121212;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.about-tdf-banner .about-tdf-header .hollow {
+    -webkit-text-stroke: 3px #fff;
+    font-size: 30px; 
+    color:#121212;
+    font-size: 90px;
+    letter-spacing: 5px;
+}
+
+.about-tdf-banner .about-tdf-header p {
+    background: #121212;
+}
+.about-tdf-banner video {
+    width: 100%;
+    height: auto;
+}
+
+.about-tdf-banner p {
+    line-height: 3;
+}
+
+/************* About Tu De France Timeline CSS  *************/
+.about-tdf .timeline .item {
+    padding: 100px 0;
+}
+
+.about-tdf .timeline .item .timeline-bx, 
+.about-tdf .timeline .item .media {
+    position: relative;
+}
+
+.about-tdf .timeline .item .date {
+    position: relative;
+    height: 100%;
+    z-index: 3;
+}
+
+.about-tdf .timeline .item .date>div {
+    text-align: center;
+    background: #ff0;
+    transform: rotate(-20deg) skewX(-20deg) translate(-50%, -50%);
+    border-radius: 10px 0 10px 0;
+    overflow: hidden;
+    padding: 10px 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    width: 67px;
+    height: 130px;
+    font-size: 48px;
+    line-height: 38px;
+    /* font-family: GEB; */
+    color: #121212;
+    font-weight: 700;
+}
+
+.about-tdf .timeline .item .date>div .text-stroke {
+    display: block;
+    margin-top: 15px;
+    -webkit-text-stroke: 2px #000;
+    -webkit-text-fill-color: #ff0;
+}
+
+/* Verticle Line Aviation */
+.about-tdf .timeline .item .verticle-line {
+    width: 2px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+    background: #fff;
+}
+
+.about-tdf .timeline .item .verticle-line::after,
+.about-tdf .timeline .item .verticle-line::before {
+    content: "";
+    width: 100px;
+    height: 102px;
+    position: absolute;
+}
+
+.about-tdf .timeline .item-1 .verticle-line::before {
+    content: "";
+    border-radius: 0;
+    border-left: 2px solid #fff;
+    border-top: none;
+    left: 0;
+    width: 190px;
+    height: 120px;
+}
+.about-tdf .timeline .item-1 .verticle-line::after {
+    content: "";
+    border-radius: 0 0 50px;
+    border-right: 2px solid #fff !important;
+    border-bottom: 2px solid #fff;
+    bottom: -100px;
+    left: -218px;
+    width: 220px;
+}
+
+.about-tdf .timeline .item-2 .verticle-line::before {
+    content: "";
+    border-radius: 50px 0 0 0;
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+    top: -102px;
+    left: 0;
+    width: 222px;
+}
+.about-tdf .timeline .item-2 .verticle-line::after {
+    content: "";
+    border-radius: 0 0 0 50px;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    bottom: -100px;
+    left: 0;
+    width: 620px;
+}   
+
+.about-tdf .timeline .item-3 .verticle-line::before {
+    content: "";
+    border-radius: 0 50px 0 0;
+    border-right: 2px solid #fff;
+    border-top: 2px solid #fff;
+    top: -102px;
+    left: -598px;
+    width: 600px;
+}
+.about-tdf .timeline .item-3 .verticle-line::after {
+    content: "";
+    border-radius: 0 0 50px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    bottom: -100px;
+    left: -218px;
+    width: 220px;
+}
+
+.about-tdf .timeline .item-4 .verticle-line::before {
+    content: "";
+    border-radius: 50px 0 0 0;
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+    top: -102px;
+    left: 0;
+    width: 230px;
+}
+.about-tdf .timeline .item-4 .verticle-line::after {
+    content: "";
+    border-radius: 0 0 50px 0;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    bottom: -100px;
+    left: -168px;
+    width: 170px;
+}
+
+.about-tdf .timeline .item-5 .verticle-line::before {
+    content: "";
+    border-radius: 50px 0 0 0;
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+    top: -102px;
+    left: 0;
+    width: 210px;
+}
+
+.about-tdf .timeline .item-5 .verticle-line::after {
+    content: "";
+    border-radius: 0 0 50px;
+    border-right: 2px solid #fff !important;
+    border-bottom: 2px solid #fff;
+    bottom: -100px;
+    left: -218px;
+    width: 220px;
+}
+
+.about-tdf .timeline .item-end .verticle-line::after {
+    content: "";
+    width: 3px;
+    height: 110px;
+    bottom: -100px;
+    /* background: url(../img/history-dashed.png) no-repeat top; */
+    background-size: 3px 330px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+}
+
+/* Media in Timeline */
+.about-tdf .timeline .item-1 .media {
+    left: -70%;
+    width: 140%;
+}
+
+.about-tdf .timeline .item-2 .media {
+    left: 25%;
+    width: 140%;
+}
+
+.about-tdf .timeline .item-3 .media {
+    left: -70%;
+    width: 140%;
+}
+
+/* Basic CSS for Timeline */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-tdf .timeline .item h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-tdf .timeline .item p {
+    font-size: 18px;
+    line-height: 2;
+}
+
+/************* About Tu De France Jersey CSS  *************/
+.about-tdf .jersey h2 {
+    font-size: 50px;
+}
+
+.about-tdf .jersey .jer-imgbx {
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+.about-tdf .jersey .jer-imgbx::before {
+    content: "";
+    background: linear-gradient(90.21deg, #FFFF00 -5.91%, #4A2FBD 111.58%);
+    opacity: 0.85;
+    position: absolute;
+    width: 100%;
+    height: 0;
+    transition: 0.4s ease-in-out;
+}
+.about-tdf .jersey .jer-imgbx:hover::before {
+    height: 100%;
+}
+.about-tdf .jersey .jer-txtx {
+    position: absolute;
+    text-align: center;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    width: 100%;
+}
+.about-tdf .jersey .jer-imgbx:hover .jer-txtx {
+    top: 50%;
+    opacity: 1;
+}
+.about-tdf .jersey .jer-txtx h4 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1.1em;
+    color: #000;
+}
+
+.about-tdf .jersey .jer-txtx p {
+    color: #000;
+}
+/************* About Tu De France Photo Gallery CSS  *************/
+.about-tdf .photo-gallery h2 {
+    font-size: 50px;
+}
+
+.about-tdf .photo-gallery .img-bx {
+    position: relative;
+    cursor: pointer;
+}
