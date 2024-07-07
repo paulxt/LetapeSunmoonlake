@@ -14,13 +14,13 @@ const EventHighlight = () => {
                         </HashLink>
                     </Col>
                     <Col md={4} className='event-bx event-bx2'>
-                        <HashLink to={'/race-kit'} target='_blank'>
+                        <HashLink to={'/race-kit#'}>
                             <h3>報名限定</h3>
                             <h3>紀念禮盒</h3>
                         </HashLink>
                     </Col>
                     <Col md={4} className='event-bx event-bx3'>
-                        <HashLink to={'/letape-du-tour'} target='_blank'>
+                        <HashLink to={'/letape-du-tour#'}>
                             <h3>前往L’ÉTape</h3>
                             <h3>2025 法國錦標賽</h3>
                         </HashLink>

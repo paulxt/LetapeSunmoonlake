@@ -54,6 +54,7 @@ const Season = () => {
                                 <h4>環潭、還南區</h4>
                                 <div className="season-txtx">
                                     <p>日月潭自行車道曾被美國有線電視CNN旗下旅遊生活頻道「CNNGO」，獲選為全球十大最美自行車道，在湖光山色的景緻間騎著鐵馬，沿線品嘗部落美食、欣賞晨昏的水色美景，是來日月潭單車旅行最愜意的享受。</p>
+                                    <p className='theme-color mt-5'>點擊查看更多</p>
                                 </div>
                             </div>
                         </a>
@@ -64,6 +65,7 @@ const Season = () => {
                                 <h4>埔里區</h4>
                                 <div className="season-txtx">
                                     <p>擁有起伏丘陵與盆地地形的埔里鎮，每一條自行車道兼具挑戰與瘦身效果，蜿蜒的山路與高難度的自行車道，沿途有著水田、山景、山谷溪流相伴，更能夠從埔里市區一路騎到日月潭，適合單車好手相伴挑戰。 </p>
+                                    <p className='theme-color mt-5'>點擊查看更多</p>
                                 </div>
                             </div>
                         </a>
@@ -74,6 +76,7 @@ const Season = () => {
                                 <h4>車埕、水里區</h4>
                                 <div className="season-txtx">
                                     <p>水里、車埕是昔日繁榮的木業發展地帶，來到這裡騎自行車，一路有著清澈的水里溪流、集集支線鐵路相伴，不論是選擇水里水岸自行車道，或是從古樸的車埕火車站騎到水里，都是很棒選擇</p>
+                                    <p className='theme-color mt-5'>點擊查看更多</p>
                                 </div>
                             </div>
                         </a>
@@ -84,8 +87,11 @@ const Season = () => {
                                 <h4>集集區</h4>
                                 <div className="season-txtx">
                                     <p>來到著名懷舊的集集小鎮，一定不可錯過用雙輪漫遊集集綠色隧道，穿過綠意盎然的樟樹隧道，與一旁的小火車相遇，再喝杯咖啡稍作休憩，感受小鎮風光，是來集集小鎮騎自行車最特別體驗</p>
+                                    <p className='theme-color mt-5'>點擊查看更多</p>
                                 </div>
+                                
                             </div>
+                            
                         </a>
                     </Col>
                 </Row>

@@ -61,9 +61,9 @@ export const NavBar = () => {
                             {/* <NavDropdown.Divider /> */}
                         </NavDropdown>
                         <NavDropdown title="活動資訊" id="nav-dropdown">
-                            <NavDropdown.Item href={'/event-info'} eventKey="2.1">活動辦法</NavDropdown.Item>
-                            <NavDropdown.Item href='' eventKey="2.2">環法傳奇車手見面會</NavDropdown.Item>
-                            <NavDropdown.Item href='/race-kit' eventKey="2.3">環法挑戰賽限定禮盒</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="2.1" href={'/event-info'}>活動辦法</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="2.2" href='' >環法傳奇車手見面會</NavDropdown.Item>
+                            <NavDropdown.Item eventKey="2.3" href='/race-kit'>環法挑戰賽限定禮盒</NavDropdown.Item>
                             <NavDropdown.Item eventKey="2.4">Premiere VIP 套裝遊程</NavDropdown.Item>
                             <NavDropdown.Item eventKey="2.5"><HashLink to={'/event-info#event-procedure'}>活動日程表</HashLink></NavDropdown.Item>
                             {/* <NavDropdown.Item href='/event-info#event-procedure' eventKey="2.5">活動日程表</NavDropdown.Item> */}

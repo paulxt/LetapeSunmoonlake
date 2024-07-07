@@ -4,12 +4,12 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 
 //image
 import DesImg1 from '../../assets/img/about-letape-des-img1.jpg';
-
 import DesImg2 from '../../assets/img/about-letape-des-img2.jpg';
 import DesImg3 from '../../assets/img/about-letape-des-img3.jpg';
 import DesImg4 from '../../assets/img/about-letape-des-img4.jpg';
 import DesImg5 from '../../assets/img/about-letape-des-img5.jpg';
 
+import { HashLink } from 'react-router-hash-link';
 
 
 const Description = () => {
@@ -30,7 +30,9 @@ const Description = () => {
                             <li>高水準的安全和援助</li>
                             <li>探索在地絕佳自行車路線</li>
                         </ul>
-                        <button>REGISTER NOW ! <ArrowRightCircle size={25} /></button>
+                        <HashLink to={'https://bao-ming.com/eb/content/6179#29049'} target='_blank'>
+                            <button>REGISTER NOW ! <ArrowRightCircle size={25} /></button>
+                        </HashLink>
                     </Col>
                 </Row>
                 <Row className='align-items-center mb-5'>
