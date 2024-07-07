@@ -1,8 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-
-
-//image
+//images
 import RouteMapImg1 from '../../assets/img/route104-map-img1.png';
 import RouteMapImg2 from '../../assets/img/route104-map-img2.png';
 import RouteMapImg3 from '../../assets/img/route104-map-img3.png';
@@ -14,12 +12,7 @@ import RouteMapImg8 from '../../assets/img/route104-map-img8.png';
 import RouteMapImg9 from '../../assets/img/route104-map-img9.png';
 import RouteMapImg10 from '../../assets/img/route104-map-img10.png';
 
-
 import RouteMapImg11 from '../../assets/img/route104-map-img11.jpg';
-
-//components
-
-
 
 const RouteMap = () => {
     return (

@@ -29,7 +29,6 @@ import PhotoGalleyImg25 from '../../assets/img/about-tdf-photo-gallery-image25.j
 
 import Photo from './Photo.tsx';
 import LightBox from 'yet-another-react-lightbox';
-import Captions from "yet-another-react-lightbox/plugins/captions";
 import Counter from "yet-another-react-lightbox/plugins/counter";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import 'yet-another-react-lightbox/styles.css';
@@ -167,9 +166,7 @@ const slides = [
 
 const PhotoGallery = () => {
 
-    const [open, setOpen] = useState(false);
     const [index, setIndex] = useState(-1);
-
 
     return (
         <section className="photo-gallery mb-5">

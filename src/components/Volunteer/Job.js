@@ -1,13 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-
 //images
 import JobHeader from '../../assets/img/volunteer-header-img.png';
 import Icon1 from '../../assets/img/volunteer-job-icon1.png';
 import Icon2 from '../../assets/img/volunteer-job-icon2.png';
-
-
-
 
 const Job = () => {
     return (

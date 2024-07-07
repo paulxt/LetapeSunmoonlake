@@ -1,7 +1,5 @@
 import React from 'react'
 
-
-
 const Banner = () => {
     return (
         <section className="become-part-banner">

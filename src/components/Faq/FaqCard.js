@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Col } from 'react-bootstrap';
 import Accordion from 'react-bootstrap/Accordion';
 
 const FaqCard = ({ no, title, ans, index }) => {
-    
-    const [open, setOpen] = useState(false)
-
-
     return (
         <Col sm={12} className='my-1 faq-bx'>
             <Accordion defaultActiveKey="0" alwaysOpen>

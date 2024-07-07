@@ -1,8 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-
-
-//image
+//images
 import komImg1 from '../../assets/img/route-104-kom-img1.png';
 import komImg2 from '../../assets/img/route-104-kom-img2.png';
 

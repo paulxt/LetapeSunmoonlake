@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap"
-import { MailchimpForm } from "../HomeUI/MailchimpForm"
+// import { MailchimpForm } from "../HomeUI/MailchimpForm"
 import logo from '../../assets/img/logo.png';
 import '../../App.css';
 
@@ -22,9 +22,9 @@ export const Footer = () => {
                     </Col>
                     <Col sm={6} text-center text-sm-end>
                         <div className="social-icon">
-                            <a href="https://www.youtube.com/@letapesunmoonlake" target="_blank"><img className="footer-icon" src={NavIcon1} alt=""/></a>
-                            <a href="https://www.facebook.com/letapesunmoonlake/?locale=zh_TW" target='_blank'><img className="footer-icon" src={NavIcon2} alt=""/></a>
-                            <a href="https://www.instagram.com/letapesunmoonlake/" target='_blank'><img className="footer-icon" src={NavIcon3} alt=""/></a>
+                            <a href="https://www.youtube.com/@letapesunmoonlake" target="_blank" rel='noreferrer noopener'><img className="footer-icon" src={NavIcon1} alt=""/></a>
+                            <a href="https://www.facebook.com/letapesunmoonlake/?locale=zh_TW" target='_blank' rel='noreferrer noopener'><img className="footer-icon" src={NavIcon2} alt=""/></a>
+                            <a href="https://www.instagram.com/letapesunmoonlake/" target='_blank' rel='noreferrer noopener'><img className="footer-icon" src={NavIcon3} alt=""/></a>
                         </div>
                     </Col>
                     <p className="text-center">© 2024 Body-Maketing. All rights reserved.</p>

@@ -2,7 +2,6 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { ArrowRightCircle } from "react-bootstrap-icons";
 
-
 import VolunteerGiftImg1 from '../../assets/img/volunteer-gift-img1.png';
 
 const Gift = () => {

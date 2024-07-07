@@ -1,7 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import { HashLink } from 'react-router-hash-link';
 
 //images
 import RouteMapImg4 from '../../assets/img/route104-map-img4.png';
@@ -24,7 +23,7 @@ const RaceVillage = () => {
                             <li>經典拍照獎台、車迷日</li>
                             <li>合作夥伴攤位互動區</li>
                         </ul>
-                        <a href="https://bao-ming.com/eb/content/6179#29049" target="_blank"><button>REGISTER NOW <ArrowRightCircle size={25} /></button>   </a> 
+                        <a href="https://bao-ming.com/eb/content/6179#29049" target="_blank" rel='noreferrer noopener'><button>REGISTER NOW <ArrowRightCircle size={25} /></button>   </a> 
                     </Col>
                     <Col md={6}>
                         <div className="race-village-img-bx">

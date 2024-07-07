@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
-import TitleIcon from '../../assets/img/title-icon.png';
+// import TitleIcon from '../../assets/img/title-icon.png';
 import YellowShirt from '../Route104/YellowShirt';
 import KOM from '../Route104/KOM';
 

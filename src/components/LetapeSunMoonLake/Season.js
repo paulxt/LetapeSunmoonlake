@@ -49,7 +49,7 @@ const Season = () => {
 
                 <Row className="align-items-center">
                     <Col md={3} sm={6}>
-                        <a href="https://www.sunmoonlake.gov.tw/zh-tw/attractions/cycling-tannan" target='_blank'>
+                        <a href="https://www.sunmoonlake.gov.tw/zh-tw/attractions/cycling-tannan" target='_blank' rel='noreferrer noopener'>
                             <div className="season-bx2 season-bx2-1">
                                 <h4>環潭、還南區</h4>
                                 <div className="season-txtx">
@@ -59,7 +59,7 @@ const Season = () => {
                         </a>
                     </Col>
                     <Col md={3} sm={6}>
-                        <a href="https://www.sunmoonlake.gov.tw/zh-tw/attractions/cycling-puli" target='_blank'>
+                        <a href="https://www.sunmoonlake.gov.tw/zh-tw/attractions/cycling-puli" target='_blank' rel='noreferrer noopener'>
                             <div className="season-bx2 season-bx2-2">
                                 <h4>埔里區</h4>
                                 <div className="season-txtx">
@@ -69,7 +69,7 @@ const Season = () => {
                         </a>
                     </Col>
                     <Col md={3} sm={6}>
-                        <a href="https://www.sunmoonlake.gov.tw/zh-tw/attractions/cycling-che-cheng" target='_blank'>
+                        <a href="https://www.sunmoonlake.gov.tw/zh-tw/attractions/cycling-che-cheng" target='_blank' rel='noreferrer noopener'>
                             <div className="season-bx2 season-bx2-3">
                                 <h4>車埕、水里區</h4>
                                 <div className="season-txtx">
@@ -79,7 +79,7 @@ const Season = () => {
                         </a>
                     </Col>
                     <Col md={3} sm={6}>
-                        <a href="https://www.sunmoonlake.gov.tw/zh-tw/attractions/cycling-ji-ji" target='_blank'>
+                        <a href="https://www.sunmoonlake.gov.tw/zh-tw/attractions/cycling-ji-ji" target='_blank' rel='noreferrer noopener'>
                             <div className="season-bx2 season-bx2-4">
                                 <h4>集集區</h4>
                                 <div className="season-txtx">

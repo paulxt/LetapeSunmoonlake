@@ -11,7 +11,7 @@ const RouteGpx = () => {
         <Container>
           <Row className='align-items-center'>
             <Col md={3}>
-              <h3 className='text-center'><a href="">★點我下載GPX檔★</a></h3>
+              <h3 className='text-center'><a href="/#">★點我下載GPX檔★</a></h3>
               <h4 className='text-center'>如何匯入GPX檔至Google Maps？三步驟輕鬆做！</h4>
               <div className="gpx-bx">
                 <p>❶ Step 1.</p>

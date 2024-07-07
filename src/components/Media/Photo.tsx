@@ -1,15 +1,11 @@
 import React, { FC } from 'react'
 import { Col, Row } from 'react-bootstrap'
-
-
 interface ImagesProps {
     data: {
         src: string,
     }[];
     onClick: (index: number) => void;
 }
-
-
 
 const Photo: FC<ImagesProps> = (props) => {
 

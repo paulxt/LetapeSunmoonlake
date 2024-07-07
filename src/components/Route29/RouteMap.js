@@ -7,12 +7,12 @@ import RouteMapImg1 from '../../assets/img/route104-map-img1.png';
 import RouteMapImg2 from '../../assets/img/route104-map-img2.png';
 import RouteMapImg3 from '../../assets/img/route104-map-img3.png';
 import RouteMapImg4 from '../../assets/img/route104-map-img4.png';
-import RouteMapImg5 from '../../assets/img/route104-map-img5.png';
-import RouteMapImg6 from '../../assets/img/route104-map-img6.png';
-import RouteMapImg7 from '../../assets/img/route104-map-img7.png';
-import RouteMapImg8 from '../../assets/img/route104-map-img8.png';
-import RouteMapImg9 from '../../assets/img/route104-map-img9.png';
-import RouteMapImg10 from '../../assets/img/route104-map-img10.png';
+// import RouteMapImg5 from '../../assets/img/route104-map-img5.png';
+// import RouteMapImg6 from '../../assets/img/route104-map-img6.png';
+// import RouteMapImg7 from '../../assets/img/route104-map-img7.png';
+// import RouteMapImg8 from '../../assets/img/route104-map-img8.png';
+// import RouteMapImg9 from '../../assets/img/route104-map-img9.png';
+// import RouteMapImg10 from '../../assets/img/route104-map-img10.png';
 
 //Map
 import RouteMapImg11 from '../../assets/img/route29-map-img1.jpg';

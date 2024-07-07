@@ -1,7 +1,5 @@
 import React from 'react';
-// import { Container } from 'react-bootstrap';
 import IntroVideo from '../../assets/img/Intro.mp4';
-
 
 const Video = () => {
     return (

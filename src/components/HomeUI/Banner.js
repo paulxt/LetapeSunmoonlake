@@ -1,5 +1,5 @@
 // Hook
-import { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
 import { Container, Row, Col } from 'react-bootstrap';
 import { ArrowRightCircle } from "react-bootstrap-icons";
@@ -7,7 +7,6 @@ import headerImg from '../../assets/img/header-img.png';
 
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import { isVisible } from '@testing-library/user-event/dist/utils';
 import { HashLink } from 'react-router-hash-link';
 
 export const Banner = () => {

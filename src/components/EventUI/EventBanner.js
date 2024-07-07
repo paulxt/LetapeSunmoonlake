@@ -1,8 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-
 import LogoNu from '../../assets/img/contact-img.png';
-
 
 const EventBanner = () => {
     return (

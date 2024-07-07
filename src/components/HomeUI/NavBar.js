@@ -7,8 +7,8 @@ import '../../App.css';
 
 //image
 import logo from '../../assets/img/logo.png';
-import logo2 from '../../assets/img/logo2.png';
-import navIcon1 from '../../assets/img/nav-icon1.svg';
+// import logo2 from '../../assets/img/logo2.png'; //tu de france
+// import navIcon1 from '../../assets/img/nav-icon1.svg'; //youtube
 import navIcon2 from '../../assets/img/nav-icon2.svg';
 import navIcon3 from '../../assets/img/nav-icon3.svg';
 
@@ -85,8 +85,8 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.facebook.com/letapesunmoonlake/?locale=zh_TW" target='_blank'><img src={navIcon2} alt="" /></a>
-                            <a href="https://www.instagram.com/letapesunmoonlake/" target='_blank'><img src={navIcon3} alt="" /></a>
+                            <a href="https://www.facebook.com/letapesunmoonlake/?locale=zh_TW" target='_blank' rel='noreferrer noopener'><img src={navIcon2} alt="" /></a>
+                            <a href="https://www.instagram.com/letapesunmoonlake/" target='_blank' rel='noreferrer noopener'><img src={navIcon3} alt="" /></a>
                             
                         </div>
                             
