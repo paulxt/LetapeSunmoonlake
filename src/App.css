@@ -1013,3 +1013,8 @@ nav.navbar.scrolled .nav-logo {
   letter-spacing: 0.5px;
   margin-top: 20px;
 }
+
+.footer p a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -27,7 +27,7 @@ export const Footer = () => {
                             <a href="https://www.instagram.com/letapesunmoonlake/" target='_blank' rel='noreferrer noopener'><img className="footer-icon" src={NavIcon3} alt=""/></a>
                         </div>
                     </Col>
-                    <p className="text-center">© 2024 Body-Maketing. All rights reserved.</p>
+                    <p className="text-center">© 2024 Body-Marketing. All rights reserved. <a href="http://alcoholic-marketing.com" target="_blank" rel="noopener noreferrer">Powered by Alcoholic Inc.</a></p>
                 </Row>
             </Container>
         </footer>
