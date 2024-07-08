@@ -21,7 +21,7 @@ const EventHighlight = () => {
                     </Col>
                     <Col md={4} className='event-bx event-bx3'>
                         <HashLink to={'/letape-du-tour#'}>
-                            <h3>前往L’ÉTape</h3>
+                            <h3>前往L’Étape</h3>
                             <h3>2025 法國錦標賽</h3>
                         </HashLink>
                     </Col>
