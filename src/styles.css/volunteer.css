@@ -53,7 +53,14 @@
 
 .volunteer .volunteer-job .text-even {
     position: relative;
-    left: 40%;
+    width: 70%;
+    margin-right: 0;
+}
+
+@media only screen and (max-width:576px) {
+    .volunteer .volunteer-job .text-even {
+        width: 100%!important;
+    }
 }
 
 /************* Volunteer Gift CSS *************/

@@ -1,3 +1,10 @@
+/************* About Tu De France CSS  *************/
+.about-tdf iframe {
+    width: 100%;
+    height: 400px;
+}
+
+
 /************* About Tu De France Banner CSS  *************/
 .about-tdf-banner .about-tdf-header {
     background-image: url(../assets/img/about-tdf-banner.jpg);

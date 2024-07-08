@@ -13,7 +13,7 @@ const Gift = () => {
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">環法挑戰限定禮盒</Nav.Link>
+                                    <Nav.Link eventKey="first">限定禮盒</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="second">完賽好禮</Nav.Link>

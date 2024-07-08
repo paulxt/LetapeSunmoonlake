@@ -231,6 +231,18 @@
     bottom: 200px;
 }
 
+@media only screen and (max-width:768px) {
+    .KOM .kom-img1 {
+        position: relative;
+        left: 20%;
+    }
+
+    .KOM .kom-img2 {
+        left: 10%!important;
+        bottom: 0!important;
+    }
+}
+
 
 
 /************* Route 104 Content  *************/

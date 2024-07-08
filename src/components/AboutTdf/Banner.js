@@ -20,7 +20,7 @@ const Banner = () => {
                         <p>據說，瘋狂和天才之間的界限很清楚，在 20 世紀初的法國，任何人如果設想在全國範圍內進行近 2,500 公里長的自行車比賽，都會被廣泛認為是精神錯亂。但這並沒有阻止當時 L'Auto 雜誌的記者 Géo Lefèvre 繼續實施他的靈感計劃。他的編輯亨利·德格朗日（Henri Desgrange）大膽地相信了這個想法，並支持環法自行車賽。</p>
                     </Col>
                     <Col md={8}>
-                        <iframe width="700" height="393" src="https://www.youtube.com/embed/ekIGyvfiubs?si=GV0qtIr7v37En0VL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe height="393" src="https://www.youtube.com/embed/ekIGyvfiubs?si=GV0qtIr7v37En0VL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </Col>
                 </Row>
             </Container>

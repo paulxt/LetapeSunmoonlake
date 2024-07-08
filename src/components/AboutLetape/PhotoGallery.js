@@ -136,7 +136,7 @@ const PhotoGallery = () => {
                     <h2>珍貴的照片集錦</h2>
                     <Col>
                         <div className="media">
-                            <iframe width="1120" height="630" src="https://www.youtube.com/embed/QNwZOyDAagE?si=MDZgTDVL3gRfeyDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe src="https://www.youtube.com/embed/QNwZOyDAagE?si=MDZgTDVL3gRfeyDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </Col>
                 </Row>
