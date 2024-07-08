@@ -167,7 +167,7 @@ const PhotoGallery = () => {
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">各國 L’ÉTape 賽事精華</Nav.Link>
+                                    <Nav.Link eventKey="first">各國賽事精華</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
                                     <Nav.Link eventKey="second">環法歷史特區</Nav.Link>
