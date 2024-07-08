@@ -34,7 +34,7 @@ const HomeDes1 = () => {
                             </Col>
                             <Col sm={6}>
                                 <img src={HomeDes1Img3} alt="" />
-                                <p>前往法國L’ÉTape冠軍賽榮耀</p>
+                                <p>前往法國L’Étape冠軍賽榮耀</p>
                             </Col>
                             <Col sm={6}>
                                 <img src={HomeDes1Img4} alt="" />

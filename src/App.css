@@ -296,6 +296,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: auto;
 }
 
+@media only screen and (max-width:768px) {
+  .nav-logo2 {
+    width: 20%;
+  }
+}
+
 nav.navbar.scrolled .nav-logo {
   background-color: #fff;
 }
@@ -1000,7 +1006,6 @@ nav.navbar.scrolled .nav-logo {
 }
 .footer-icon, .footer-logo {
   width: 26%;
-  
 }
 .footer-logo {
   background-color: #fff;

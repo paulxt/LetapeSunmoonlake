@@ -15,7 +15,7 @@ const HomeDes2 = () => {
                         <img src={HomeDes2Img2} alt="" />
                     </Col>
                     <Col md={5} className='text-center p-0'>
-                        <h2><span className='theme-color'>L‘ÉTape</span></h2>
+                        <h2><span className='theme-color'>L‘Étape</span></h2>
                         <h2><span className='theme-color'>Since 1993</span></h2>
                         <p>Tour de France Since 1903</p>
                     </Col>

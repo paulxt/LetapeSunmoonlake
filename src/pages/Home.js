@@ -11,7 +11,7 @@ import HomeDes2 from '../components/HomeUI/HomeDes2';
 import HomeDes3 from '../components/HomeUI/HomeDes3';
 import Distance from '../components/HomeUI/Distance';
 // import Pocagar from '../components/HomeUI/Pocagar';
-import { LatestNews } from '../components/HomeUI/LatestNews';
+// import { LatestNews } from '../components/HomeUI/LatestNews';
 import EventHighlight from '../components/HomeUI/EventHighlight';
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
             <HomeDes3 />
             <Distance />
             {/* <Pocagar /> */}
-            <LatestNews />
+            {/* <LatestNews /> */}
             <EventHighlight />
             {/* <Projects /> */}
             <Contact />

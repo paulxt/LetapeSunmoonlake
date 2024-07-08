@@ -91,11 +91,11 @@ export const NavBar = () => {
                         </div>
                             
                         <HashLink to='https://bao-ming.com/eb/content/6179#29049' target='_blank'>
-                            <button className="vvd"><span>立即報名</span></button>
+                            <button className="vvd"><span>Sign Up</span></button>
                         </HashLink>
                         
                     </span>
-                    <a className='nav-logo2-a' href="https://www.nutrilite.com.tw/"><img src={logo3} alt="Logo2" className='nav-logo2'/></a>
+                    <a className='nav-logo2-a' href="https://www.nutrilite.com.tw/" target='_blank' rel='noreferrer'><img src={logo3} alt="Logo2" className='nav-logo2'/></a>
                     <div className="language">
                         English
                     </div>

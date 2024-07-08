@@ -120,7 +120,7 @@ export const Banner = () => {
                                         </section>
                                     </div>
                                     <HashLink to={'https://bao-ming.com/eb/content/6179#29049'} target='_blank'>
-                                        <button className='banner-btn' onClick={() => console.log('connect')}>立即報名 <ArrowRightCircle size={25} /></button>
+                                        <button className='banner-btn' onClick={() => console.log('connect')}>Sign Up!<ArrowRightCircle size={25} /></button>
                                     </HashLink>
                                 </div>
                             }
