@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8fe7c4dc.css",
-    "main.js": "/static/js/main.588e3346.js",
+    "main.css": "/static/css/main.76642ce9.css",
+    "main.js": "/static/js/main.9ce8ead3.js",
     "static/media/Intro.mp4": "/static/media/Intro.6d8ba1f52d316f043445.mp4",
     "static/media/about-letape-des-img5.jpg": "/static/media/about-letape-des-img5.5cb724eaa32788297ee5.jpg",
     "static/media/Alibaba-PuHuiTi-Regular.ttf": "/static/media/Alibaba-PuHuiTi-Regular.560e3e1f3b429a424119.ttf",
@@ -187,6 +187,7 @@
     "static/media/letape-sunmoonlake-season-img3.jpg": "/static/media/letape-sunmoonlake-season-img3.f7638ee98e109a5b155d.jpg",
     "static/media/letape-sunmoonlake-desc-img3.jpg": "/static/media/letape-sunmoonlake-desc-img3.788a8a3375ac70f4a478.jpg",
     "static/media/partner-section-img1.png": "/static/media/partner-section-img1.d8cd81a4d65d3f7edb58.png",
+    "static/media/logo-nu.png": "/static/media/logo-nu.628d596da335326adbc7.png",
     "static/media/partner-section-img5.png": "/static/media/partner-section-img5.2f66ab3fb7688d98331c.png",
     "static/media/ref-map-img.png": "/static/media/ref-map-img.8fd4403493887ce9f5bb.png",
     "static/media/partner-section-img9.png": "/static/media/partner-section-img9.a528ddcb433769ac779c.png",
@@ -215,7 +216,6 @@
     "static/media/about-letape-banner2-bg.png": "/static/media/about-letape-banner2-bg.91e4ee4c49b6ed209dc9.png",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/route-104-spotlight-img1.jpg": "/static/media/route-104-spotlight-img1.18d3dc9088c20d95d1b3.jpg",
-    "static/media/logo-nu.png": "/static/media/logo-nu.a2aceacab2af1a7b117f.png",
     "static/media/partner-section-img14.png": "/static/media/partner-section-img14.eb033e39e002e1813dac.png",
     "static/media/home-des1-img-2.png": "/static/media/home-des1-img-2.3ce51de42d9c9eb4ee16.png",
     "static/media/about-tdf-timeline-img3.jpg": "/static/media/about-tdf-timeline-img3.636d024a111a95dbc2d2.jpg",
@@ -231,7 +231,6 @@
     "static/media/partner-section-img12.png": "/static/media/partner-section-img12.dd32680708dffd64997a.png",
     "static/media/sm-title-icon.png": "/static/media/sm-title-icon.0d9d0fcdafa3942f89da.png",
     "static/media/title-icon.png": "/static/media/title-icon.00f378ca988a8b69038c.png",
-    "static/media/partner-section-img3.png": "/static/media/partner-section-img3.e7f92f30ac3568491e1c.png",
     "static/media/event-info-download-img2.png": "/static/media/event-info-download-img2.1c0c6a84910bf6534eda.png",
     "static/media/event-info-download-img1.png": "/static/media/event-info-download-img1.f5507009019ba258047f.png",
     "static/media/event-info-download-img4.png": "/static/media/event-info-download-img4.e0f19615d09d318b54d3.png",
@@ -253,11 +252,11 @@
     "static/media/nav-icon3.svg": "/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/index.html",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.8fe7c4dc.css.map": "/static/css/main.8fe7c4dc.css.map",
-    "main.588e3346.js.map": "/static/js/main.588e3346.js.map"
+    "main.76642ce9.css.map": "/static/css/main.76642ce9.css.map",
+    "main.9ce8ead3.js.map": "/static/js/main.9ce8ead3.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fe7c4dc.css",
-    "static/js/main.588e3346.js"
+    "static/css/main.76642ce9.css",
+    "static/js/main.9ce8ead3.js"
   ]
 }

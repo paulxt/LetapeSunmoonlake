@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 //image
 import PartnerSectionImg1 from '../../assets/img/partner-section-img1.png'; //台灣
 import PartnerSectionImg2 from '../../assets/img/partner-section-img2.png'; //交通部
-import PartnerSectionImg3 from '../../assets/img/partner-section-img3.png'; //紐崔萊
+import PartnerSectionImg3 from '../../assets/img/logo-nu.png'; //紐崔萊
 import PartnerSectionImg4 from '../../assets/img/partner-section-img4.png'; //KPLUS
 import PartnerSectionImg5 from '../../assets/img/partner-section-img5.png';
 import PartnerSectionImg6 from '../../assets/img/partner-section-img6.png';
@@ -96,7 +96,7 @@ const PartnerSection = () => {
                     <Col md={12} className='center'>
                         <a href="https://www.nutrilite.com.tw/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
-                                <img className='w-75' src={PartnerSectionImg3} alt="" />
+                                <img className='w-100 my-5 logo-nu' src={PartnerSectionImg3} alt="" />
                             </div>
                         </a>
                     </Col>
