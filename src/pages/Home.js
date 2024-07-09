@@ -14,20 +14,20 @@ import Distance from '../components/HomeUI/Distance';
 // import { LatestNews } from '../components/HomeUI/LatestNews';
 import EventHighlight from '../components/HomeUI/EventHighlight';
 
-const Home = () => {
+const Home = ({language}) => {
     return (
         <div className="home">
-            <Banner />
-            <Video />
-            <HomeDes1 />
-            <HomeDes2 />
-            <HomeDes3 />
-            <Distance />
+            <Banner language={language} />
+            <Video language={language} />
+            <HomeDes1 language={language} />
+            <HomeDes2 language={language} />
+            <HomeDes3 language={language} />
+            <Distance language={language} />
             {/* <Pocagar /> */}
             {/* <LatestNews /> */}
-            <EventHighlight />
+            <EventHighlight language={language} />
             {/* <Projects /> */}
-            <Contact />
+            <Contact language={language} />
         </div>
     )
 }

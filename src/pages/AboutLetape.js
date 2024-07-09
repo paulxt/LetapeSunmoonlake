@@ -7,13 +7,13 @@ import Data from '../components/AboutLetape/Data';
 import Description from '../components/AboutLetape/Description';
 import PhotoGallery from '../components/AboutLetape/PhotoGallery';
 
-const AboutLetape = () => {
+const AboutLetape = ({language}) => {
     return (
         <div className='about-letape'>
-            <Banner />
-            <Data />
-            <Description />
-            <PhotoGallery />
+            <Banner language={language} />
+            <Data language={language} />
+            <Description language={language} />
+            <PhotoGallery language={language} />
         </div>
     )
 }

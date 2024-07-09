@@ -7,13 +7,13 @@ import Timeline from '../components/AboutTdf/Timeline';
 import Jersey from '../components/AboutTdf/Jersey';
 import PhotoGallery from '../components/AboutTdf/PhotoGallery.tsx';
 
-const AboutTdf = () => {
+const AboutTdf = ({language}) => {
     return (
         <div className='about-tdf'>
-            <Banner />
-            <Timeline />
-            <Jersey />
-            <PhotoGallery />
+            <Banner language={language} />
+            <Timeline language={language} />
+            <Jersey language={language} />
+            <PhotoGallery language={language} />
         </div>
     )
 }

@@ -18,7 +18,7 @@ import logo3 from '../../assets/img/logo-nu.png'
 import { useState, useEffect } from 'react';
 import { HashLink } from 'react-router-hash-link';
 
-export const NavBar = () => {
+const NavBar = ({ language, toggleLanguage}) => {
 
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
@@ -97,10 +97,17 @@ export const NavBar = () => {
                     </span>
                     <a className='nav-logo2-a' href="https://www.nutrilite.com.tw/" target='_blank' rel='noreferrer'><img src={logo3} alt="Logo2" className='nav-logo2'/></a>
                     <div className="language">
-                        English
+                        <span onClick={toggleLanguage}>
+                            {
+                                language === 'Chinese' ?(<span>English</span>)
+                                    : (<span>中文</span>)
+                            }
+                        </span>
                     </div>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
     );
 }
+
+export default NavBar

@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { NavBar } from './components/HomeUI/NavBar';
+import NavBar from './components/HomeUI/NavBar';
 import { Footer } from './components/HomeUI/Footer';
 
 // Route Components
@@ -87,13 +87,22 @@ const router = [
 
 
 function App() {
+
+  const [language, setLanguage] = useState('Chinese');
+  const toggleLanguage = () => {
+    language === 'Chinese' ? setLanguage('English') : setLanguage('Chinese');
+  }
+  useEffect(() => {
+    document.body.className = language
+  }, [language]);
+
   return (
     <Router>
-      <NavBar />
+      <NavBar language={language} toggleLanguage={toggleLanguage} />
       <Routes>
         {
           router.map((route, index) => (
-            <Route path={route.path} element={route.element} key={index} />
+            <Route path={route.path} element={route.element} key={index} language={language} />
           ))
         }
       </Routes>

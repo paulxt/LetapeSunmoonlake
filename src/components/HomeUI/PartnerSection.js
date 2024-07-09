@@ -28,7 +28,7 @@ const PartnerSection = () => {
                 </Row>
                 <Row className='align-items-center text-center my-4'>
                     <h2>指導單位 | Advisory Organization</h2>
-                    <Col md={3}>
+                    <Col size={12} md={3} sm={6} >
                         <a href="https://www.taiwan.net.tw/w1.aspx" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-100' src={PartnerSectionImg1} alt="" />
@@ -36,21 +36,21 @@ const PartnerSection = () => {
                         </a>
                         
                     </Col>
-                    <Col md={3}>
+                    <Col  size={12} md={3} sm={6}>
                         <a href="https://www.taiwan.net.tw/w1.aspx" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-100' src={PartnerSectionImg2} alt="" />
                             </div>
                         </a>
                     </Col>
-                    <Col md={3}>
+                    <Col size={12} md={3} sm={6} >
                         <a href="https://www.nantou.gov.tw/big5/index.php" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img src={PartnerSectionImg12} alt="" />
                             </div>
                         </a>
                     </Col>
-                    <Col md={3}>
+                    <Col size={12} md={3} sm={6} >
                         <a href="https://www.aso.fr/en/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-100' src={PartnerSectionImg5} alt="" />
@@ -104,35 +104,35 @@ const PartnerSection = () => {
                 
                 <Row className='align-items-center text-center my-4'>
                     <h2>合作夥伴 | Official Partners</h2>
-                    <Col md={3} className='py-4'>
+                    <Col size={12} md={3} sm={6} className='py-4'>
                         <a href="https://www.kplus-helmet.com/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                             <img className='w-75' src={PartnerSectionImg4} alt="" />
                             </div>
                         </a>
                     </Col>
-                    <Col md={3}>
+                    <Col size={12} md={3} sm={6} >
                         <a href="https://www.titan-tech.com.tw/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-75' src={PartnerSectionImg10} alt="" />
                             </div>
                         </a>
                     </Col>
-                    <Col md={3}>
+                    <Col size={12} md={3} sm={6} >
                         <a href="https://www.boneshop.com/tw/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-75' src={PartnerSectionImg11} alt="" />
                             </div>
                         </a>
                     </Col>
-                    <Col md={3}>
+                    <Col size={12} md={3} sm={6} >
                         <a href="https://tw.oakley.com/zh" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-75' src={PartnerSectionImg14} alt="" />
                             </div>
                         </a>
                     </Col>
-                    <Col md={3}>
+                    <Col size={12} md={3} sm={6} >
                         <a href="https://www.mommyhappy.com/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-75' src={PartnerSectionImg6} alt="" />

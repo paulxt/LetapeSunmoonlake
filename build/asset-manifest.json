@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c65df8b8.css",
-    "main.js": "/static/js/main.9a90fc5d.js",
+    "main.css": "/static/css/main.52ee0f31.css",
+    "main.js": "/static/js/main.ed2cda65.js",
     "static/media/Intro.mp4": "/static/media/Intro.6d8ba1f52d316f043445.mp4",
     "static/media/about-letape-des-img5.jpg": "/static/media/about-letape-des-img5.5cb724eaa32788297ee5.jpg",
     "static/media/Alibaba-PuHuiTi-Regular.ttf": "/static/media/Alibaba-PuHuiTi-Regular.560e3e1f3b429a424119.ttf",
@@ -167,9 +167,9 @@
     "static/media/add-on-gift-img4.png": "/static/media/add-on-gift-img4.5ab3d28ede97e20dbdff.png",
     "static/media/size-map-img.png": "/static/media/size-map-img.51d4a8fcf62bcb7f2a48.png",
     "static/media/event-highlight-img2.png": "/static/media/event-highlight-img2.20fb5d7ddce80e018ba8.png",
+    "static/media/sign-up-gift-img4.png": "/static/media/sign-up-gift-img4.4d6f292e8ef7e838dba6.png",
     "static/media/letape-sunmoonlake-season-img2.jpg": "/static/media/letape-sunmoonlake-season-img2.d46fc043d821c92de973.jpg",
     "static/media/finisher-gift-img3.png": "/static/media/finisher-gift-img3.5f02d81273f24ce4427b.png",
-    "static/media/sign-up-gift-img4.png": "/static/media/sign-up-gift-img4.48bd94f10c4ab0fa3698.png",
     "static/media/letape-sunmoonlake-season-img8.jpg": "/static/media/letape-sunmoonlake-season-img8.17e4bbc609f6f4b6d82b.jpg",
     "static/media/finisher-gift-img2.png": "/static/media/finisher-gift-img2.999aee0cf3cd5177bd40.png",
     "static/media/partner-section-img2.png": "/static/media/partner-section-img2.f16fcef89abcd5ca4bd9.png",
@@ -252,11 +252,11 @@
     "static/media/nav-icon3.svg": "/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/index.html",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.c65df8b8.css.map": "/static/css/main.c65df8b8.css.map",
-    "main.9a90fc5d.js.map": "/static/js/main.9a90fc5d.js.map"
+    "main.52ee0f31.css.map": "/static/css/main.52ee0f31.css.map",
+    "main.ed2cda65.js.map": "/static/js/main.ed2cda65.js.map"
   },
   "entrypoints": [
-    "static/css/main.c65df8b8.css",
-    "static/js/main.9a90fc5d.js"
+    "static/css/main.52ee0f31.css",
+    "static/js/main.ed2cda65.js"
   ]
 }
