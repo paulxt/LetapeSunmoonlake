@@ -4,6 +4,51 @@
     height: 400px;
 }
 
+.about-tdf img {
+    vertical-align: center;
+}
+
+.about-tdf .timeline .col-lg-1,
+.about-tdf .timeline .col-lg-4,
+.about-tdf .timeline .col-lg-6 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 992px) {
+    /* Order */
+    .order-lg-1 {
+        order: 1;
+    }
+    .order-lg-2 {
+        order: 2;
+    }
+    .order-lg-3 {
+        order: 3;
+    }
+    /* Column Setting */
+    .col-lg-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-lg-4 {
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .col-lg-1 {
+        flex: 0 0 8.33333%;
+        max-width: 8.33333%;
+    }
+    .col-lg-5 {
+        flex: 0 0 41.66667%;
+        max-width: 41.66667%;
+    }
+    .offset-lg-1 {
+        margin-left: 8.33333%;
+    }
+}
 
 /************* About Tu De France Banner CSS  *************/
 .about-tdf-banner .about-tdf-header {
@@ -89,6 +134,11 @@
     -webkit-text-fill-color: #ff0;
 }
 
+.about-tdf .timeline .item h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
 /* Verticle Line Aviation */
 .about-tdf .timeline .item .verticle-line {
     width: 2px;
@@ -100,121 +150,124 @@
     background: #fff;
 }
 
-.about-tdf .timeline .item .verticle-line::after,
-.about-tdf .timeline .item .verticle-line::before {
-    content: "";
-    width: 100px;
-    height: 102px;
-    position: absolute;
+@media only screen and (min-width: 992px) {
+    .about-tdf .timeline .item .verticle-line:after,
+    .about-tdf .timeline .item .verticle-line:before {
+        content: "";
+        width: 100px;
+        height: 102px;
+        position: absolute;
+    }
+
+    .about-tdf .timeline .item-1 .verticle-line:before {
+        content: "";
+        border-radius: 0;
+        border-left: 2px solid #fff;
+        border-top: none;
+        left: 0;
+        width: 190px;
+        height: 120px;
+    }
+    .about-tdf .timeline .item-1 .verticle-line:after {
+        content: "";
+        border-radius: 0 0 50px;
+        border-right: 2px solid #fff !important;
+        border-bottom: 2px solid #fff;
+        bottom: -100px;
+        left: -218px;
+        width: 220px;
+    }
+
+    .about-tdf .timeline .item-2 .verticle-line:before {
+        content: "";
+        border-radius: 50px 0 0 0;
+        border-left: 2px solid #fff;
+        border-top: 2px solid #fff;
+        top: -102px;
+        left: 0;
+        width: 222px;
+    }
+    .about-tdf .timeline .item-2 .verticle-line:after {
+        content: "";
+        border-radius: 0 0 0 50px;
+        border-left: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        bottom: -100px;
+        left: 0;
+        width: 620px;
+    }   
+
+    .about-tdf .timeline .item-3 .verticle-line:before {
+        content: "";
+        border-radius: 0 50px 0 0;
+        border-right: 2px solid #fff;
+        border-top: 2px solid #fff;
+        top: -102px;
+        left: -598px;
+        width: 600px;
+    }
+    .about-tdf .timeline .item-3 .verticle-line:after {
+        content: "";
+        border-radius: 0 0 50px;
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        bottom: -100px;
+        left: -218px;
+        width: 220px;
+    }
+
+    .about-tdf .timeline .item-4 .verticle-line:before {
+        content: "";
+        border-radius: 50px 0 0 0;
+        border-left: 2px solid #fff;
+        border-top: 2px solid #fff;
+        top: -102px;
+        left: 0;
+        width: 230px;
+    }
+    .about-tdf .timeline .item-4 .verticle-line:after {
+        content: "";
+        border-radius: 0 0 50px 0;
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+        bottom: -100px;
+        left: -168px;
+        width: 170px;
+    }
+
+    .about-tdf .timeline .item-5 .verticle-line:before {
+        content: "";
+        border-radius: 50px 0 0 0;
+        border-left: 2px solid #fff;
+        border-top: 2px solid #fff;
+        top: -102px;
+        left: 0;
+        width: 210px;
+    }
+
+    .about-tdf .timeline .item-5 .verticle-line:after {
+        content: "";
+        border-radius: 0 0 50px;
+        border-right: 2px solid #fff !important;
+        border-bottom: 2px solid #fff;
+        bottom: -100px;
+        left: -218px;
+        width: 220px;
+    }
+
+    .about-tdf .timeline .item-end .verticle-line:after {
+        content: "";
+        width: 3px;
+        height: 110px;
+        bottom: -100px;
+        /* background: url(../img/history-dashed.png) no-repeat top; */
+        background-size: 3px 330px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: none;
+    }
 }
 
-.about-tdf .timeline .item-1 .verticle-line::before {
-    content: "";
-    border-radius: 0;
-    border-left: 2px solid #fff;
-    border-top: none;
-    left: 0;
-    width: 190px;
-    height: 120px;
-}
-.about-tdf .timeline .item-1 .verticle-line::after {
-    content: "";
-    border-radius: 0 0 50px;
-    border-right: 2px solid #fff !important;
-    border-bottom: 2px solid #fff;
-    bottom: -100px;
-    left: -218px;
-    width: 220px;
-}
-
-.about-tdf .timeline .item-2 .verticle-line::before {
-    content: "";
-    border-radius: 50px 0 0 0;
-    border-left: 2px solid #fff;
-    border-top: 2px solid #fff;
-    top: -102px;
-    left: 0;
-    width: 222px;
-}
-.about-tdf .timeline .item-2 .verticle-line::after {
-    content: "";
-    border-radius: 0 0 0 50px;
-    border-left: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-    bottom: -100px;
-    left: 0;
-    width: 620px;
-}   
-
-.about-tdf .timeline .item-3 .verticle-line::before {
-    content: "";
-    border-radius: 0 50px 0 0;
-    border-right: 2px solid #fff;
-    border-top: 2px solid #fff;
-    top: -102px;
-    left: -598px;
-    width: 600px;
-}
-.about-tdf .timeline .item-3 .verticle-line::after {
-    content: "";
-    border-radius: 0 0 50px;
-    border-right: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-    bottom: -100px;
-    left: -218px;
-    width: 220px;
-}
-
-.about-tdf .timeline .item-4 .verticle-line::before {
-    content: "";
-    border-radius: 50px 0 0 0;
-    border-left: 2px solid #fff;
-    border-top: 2px solid #fff;
-    top: -102px;
-    left: 0;
-    width: 230px;
-}
-.about-tdf .timeline .item-4 .verticle-line::after {
-    content: "";
-    border-radius: 0 0 50px 0;
-    border-right: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-    bottom: -100px;
-    left: -168px;
-    width: 170px;
-}
-
-.about-tdf .timeline .item-5 .verticle-line::before {
-    content: "";
-    border-radius: 50px 0 0 0;
-    border-left: 2px solid #fff;
-    border-top: 2px solid #fff;
-    top: -102px;
-    left: 0;
-    width: 210px;
-}
-
-.about-tdf .timeline .item-5 .verticle-line::after {
-    content: "";
-    border-radius: 0 0 50px;
-    border-right: 2px solid #fff !important;
-    border-bottom: 2px solid #fff;
-    bottom: -100px;
-    left: -218px;
-    width: 220px;
-}
-
-.about-tdf .timeline .item-end .verticle-line::after {
-    content: "";
-    width: 3px;
-    height: 110px;
-    bottom: -100px;
-    /* background: url(../img/history-dashed.png) no-repeat top; */
-    background-size: 3px 330px;
-    left: 50%;
-    transform: translateX(-50%);
-    border: none;
-}
 
 /* Media in Timeline */
 .about-tdf .timeline .item-1 .media {
@@ -304,4 +357,59 @@
 .about-tdf .photo-gallery .img-bx {
     position: relative;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 991px) {
+    .about-tdf .timeline .item {
+        padding: 100px 0 30px;
+    }
+    .about-tdf .timeline .date {
+        position: relative;
+        top: 0;
+        left: 0;
+        font-size: 48px;
+        line-height: 38px;
+        margin: 20px auto;
+    }
+    .about-tdf .timeline .verticle-line {
+        width: 2px;
+        height: 70px;
+        background: #000;
+        position: absolute;
+        top: -120px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 12px;
+    }
+
+    .about-tdf .timeline .media {
+        left: auto !important;
+        right: auto !important;
+        width: 100% !important;
+        margin-bottom: 30px;
+        margin-top: 120px;
+    }
+    .about-tdf .timeline .media img {
+        width: 100%;
+    }
+
+    .about-tdf .timeline .item p {
+        font-size: 16px;
+    }
+
+    .about-tdf .timeline .verticle-line {
+        width: 2px;
+        height: 70px;
+        background: #000;
+        position: absolute;
+        top: -120px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 12px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+
 }
