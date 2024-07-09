@@ -60,19 +60,19 @@ export const Contact = () => {
                         <form onSubmit={handleSubmit}>
                             <Row>
                                 <Col sm={6} className="px-1">
-                                    <input type="text" value={firstName} placeholder="First name" onChange={(e) => setFirstName(e.target.value)} />
+                                    <input required type="text" value={firstName} placeholder="First name" onChange={(e) => setFirstName(e.target.value)} />
                                 </Col>
                                 <Col sm={6} className="px-1">
-                                    <input type="text" value={lastName} placeholder="Last name" onChange={(e) => setLastName(e.target.value)} />
+                                    <input required type="text" value={lastName} placeholder="Last name" onChange={(e) => setLastName(e.target.value)} />
                                 </Col>
                                 <Col sm={6} className="px-1">
-                                    <input type="email" value={email} placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
+                                    <input required type="email" value={email} placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
                                 </Col>
                                 <Col sm={6} className="px-1">
-                                    <input type="tel" value={phone} placeholder="Phone" onChange={(e) => setPhone(e.target.value)} />
+                                    <input required type="tel" value={phone} placeholder="Phone" onChange={(e) => setPhone(e.target.value)} />
                                 </Col>
                                 <Col>
-                                    <textarea rows="6" sm={12} value={message} placeholder="Message" onChange={(e) => setMessage(e.target.value)}></textarea>
+                                    <textarea required rows="6" sm={12} value={message} placeholder="Message" onChange={(e) => setMessage(e.target.value)}></textarea>
                                     <button type="submit"><span>{buttonText}</span></button>
                                 </Col>
                                 {
