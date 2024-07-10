@@ -355,6 +355,10 @@ nav.navbar.scrolled .nav-logo {
   margin-bottom: 20px;
   display: block;
 }
+.home .banner h2 {
+  font-weight: 700;
+  letter-spacing: 2px;
+}
 .banner p {
   color: #B8B8B8;
   font-size: 18px;
@@ -500,7 +504,7 @@ nav.navbar.scrolled .nav-logo {
 .home-des3 p {
   font-size: 30px;
   font-weight: 700;
-  letter-spacing: 30px;
+  letter-spacing: 3px;
 }
 
 /************ Distance CSS ***********/

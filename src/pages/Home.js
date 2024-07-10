@@ -14,7 +14,7 @@ import Distance from '../components/HomeUI/Distance';
 // import { LatestNews } from '../components/HomeUI/LatestNews';
 import EventHighlight from '../components/HomeUI/EventHighlight';
 
-const Home = ({language}) => {
+const Home = ( {language} ) => {
     return (
         <div className="home">
             <Banner language={language} />

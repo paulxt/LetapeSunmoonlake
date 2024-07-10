@@ -19,12 +19,14 @@ import PartnerSectionImg14 from '../../assets/img/partner-section-img14.png'; //
 
 
 
-const PartnerSection = () => {
+const PartnerSection = ({language}) => {
     return (
         <section className="partner-section">
             <Container>
                 <Row className='align-items-center text-center py-2'>
-                    <h1><span>合作夥伴</span></h1>
+                    {
+                        language === "Chinese" ? <h1><span>合作夥伴</span></h1> : <h1><span>OFFICIAL PARTNERS</span></h1>
+                    }
                 </Row>
                 <Row className='align-items-center text-center my-4'>
                     <h2>指導單位 | Advisory Organization</h2>

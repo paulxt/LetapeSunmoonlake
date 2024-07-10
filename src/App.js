@@ -22,73 +22,9 @@ import BecomePart from './pages/BecomePart';
 import Volunteer from './pages/Volunteer';
 import Faq from './pages/Faq';
 
-const router = [
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    path: "/about-tdf",
-    element: <AboutTdf />,
-  },
-  {
-    path: '/event-info',
-    element: <Event />
-  },
-  {
-    path: '/race-kit',
-    element: <RaceKit />
-  },
-  {
-    path: '/104k-route',
-    element: <Route104 />
-  },
-  {
-    path: '/29k-route',
-    element: <Route29 />
-  },
-  {
-    path: '/contact-us',
-    element: <Contact />
-  },
-  {
-    path: '/sponsor',
-    element: <PartnerPage />
-  },
-  {
-    path: '/letape-du-tour',
-    element: <LetapeDuTour />
-  },
-  {
-    path: '/about-letape',
-    element: <AboutLetape />
-  },
-  {
-    path: '/media',
-    element: <Media />
-  },
-  {
-    path: '/letape-sunmoonlake',
-    element: <LetapeSunMoonLake />
-  },
-  {
-    path: '/join-us',
-    element: <BecomePart />
-  },
-  {
-    path: '/volunteer',
-    element: <Volunteer/>
-  },
-  {
-    path: '/faq',
-    element: <Faq />
-  },
-]
-
 
 function App() {
-
-  const [language, setLanguage] = useState('Chinese');
+  const [language, setLanguage] = useState('');
   const toggleLanguage = () => {
     language === 'Chinese' ? setLanguage('English') : setLanguage('Chinese');
   }
@@ -96,19 +32,82 @@ function App() {
     document.body.className = language
   }, [language]);
 
+  const router = [
+    {
+      path: "/",
+      element: <Home language={language} />,
+    },
+    {
+      path: "/about-tdf",
+      element: <AboutTdf language={language} />,
+    },
+    {
+      path: '/event-info',
+      element: <Event language={language} />
+    },
+    {
+      path: '/race-kit',
+      element: <RaceKit language={language} />
+    },
+    {
+      path: '/104k-route',
+      element: <Route104 language={language} />
+    },
+    {
+      path: '/29k-route',
+      element: <Route29 language={language} />
+    },
+    {
+      path: '/contact-us',
+      element: <Contact language={language} />
+    },
+    {
+      path: '/sponsor',
+      element: <PartnerPage language={language} />
+    },
+    {
+      path: '/letape-du-tour',
+      element: <LetapeDuTour language={language} />
+    },
+    {
+      path: '/about-letape',
+      element: <AboutLetape language={language} />
+    },
+    {
+      path: '/media',
+      element: <Media language={language} />
+    },
+    {
+      path: '/letape-sunmoonlake',
+      element: <LetapeSunMoonLake language={language} />
+    },
+    {
+      path: '/join-us',
+      element: <BecomePart language={language} />
+    },
+    {
+      path: '/volunteer',
+      element: <Volunteer language={language} />
+    },
+    {
+      path: '/faq',
+      element: <Faq language={language} />
+    },
+  ]
+
+
   return (
     <Router>
       <NavBar language={language} toggleLanguage={toggleLanguage} />
       <Routes>
         {
           router.map((route, index) => (
-            <Route path={route.path} element={route.element} key={index} language={language} />
+            <Route path={route.path} element={route.element} key={index} />
           ))
         }
       </Routes>
-      <Footer />
+      <Footer language={language} />
     </Router>
   );
 }
-
 export default App;

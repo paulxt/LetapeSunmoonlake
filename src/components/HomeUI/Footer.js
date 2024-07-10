@@ -9,11 +9,11 @@ import NavIcon3 from '../../assets/img/nav-icon3.svg';
 
 import PartnerSection from "./PartnerSection";
 
-export const Footer = () => {
+export const Footer = ({language}) => {
     
     return (
         <footer className="footer">
-        <PartnerSection />
+        <PartnerSection language={language} />
             <Container>
                 <Row className="align-items-center">
                     {/* <MailchimpForm /> */}
