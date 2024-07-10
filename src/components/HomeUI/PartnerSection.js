@@ -95,7 +95,7 @@ const PartnerSection = ({language}) => {
 
                 <Row className='align-items-center text-center my-4'>
                     <h2>冠名贊助 | Presented by</h2>
-                    <Col xs={6} className='center'>
+                    <Col xs={12} className='center'>
                         <a href="https://www.nutrilite.com.tw/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-100 my-5 logo-nu' src={PartnerSectionImg3} alt="" />

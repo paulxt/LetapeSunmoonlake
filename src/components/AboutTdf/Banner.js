@@ -4,11 +4,11 @@ import { Container, Row, Col } from 'react-bootstrap'
 // video
 
 
-const Banner = () => {
+const Banner = ({language}) => {
     return (
         <section className="about-tdf-banner">
             <div className="about-tdf-header mx-2 mb-5">
-                <h1>關於環法歷史</h1>
+                <h1>{language === 'Chinese'? "關於環法歷史" : "TOUR DE FRANCE CULTURE" }</h1>
                 <h1 className='hollow'>TOUR DE FRANCE HISTORY</h1>
                 <p className='text-center'>環法自行車賽（簡稱：環法）是繼世界杯和奧運會的全球第三大知名國際體育賽事品牌。<br/>
                 擁有117年悠久歷史，是當今世界上級別最高、影響力最大的自行車賽事。<br />
