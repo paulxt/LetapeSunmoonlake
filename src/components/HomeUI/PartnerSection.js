@@ -30,7 +30,7 @@ const PartnerSection = ({language}) => {
                 </Row>
                 <Row className='align-items-center text-center my-4'>
                     <h2>指導單位 | Advisory Organization</h2>
-                    <Col size={12} md={3} sm={6} >
+                    <Col size={12} xs={6} md={3} sm={6} >
                         <a href="https://www.taiwan.net.tw/w1.aspx" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-100' src={PartnerSectionImg1} alt="" />
@@ -38,21 +38,21 @@ const PartnerSection = ({language}) => {
                         </a>
                         
                     </Col>
-                    <Col  size={12} md={3} sm={6}>
+                    <Col  size={12} xs={6} md={3} sm={6}>
                         <a href="https://www.taiwan.net.tw/w1.aspx" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-100' src={PartnerSectionImg2} alt="" />
                             </div>
                         </a>
                     </Col>
-                    <Col size={12} md={3} sm={6} >
+                    <Col size={12} xs={6} md={3} sm={6} >
                         <a href="https://www.nantou.gov.tw/big5/index.php" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img src={PartnerSectionImg12} alt="" />
                             </div>
                         </a>
                     </Col>
-                    <Col size={12} md={3} sm={6} >
+                    <Col size={12} xs={6} md={3} sm={6} >
                         <a href="https://www.aso.fr/en/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-100' src={PartnerSectionImg5} alt="" />
@@ -62,12 +62,12 @@ const PartnerSection = ({language}) => {
                 </Row>
                 <Row className='align-items-center text-center my-4'>
                     <h2>主辦單位 | Organier</h2>
-                    <Col md={6} >
+                    <Col xs={6}>
                         <div className="img-bx">
                             <img src={PartnerSectionImg13} alt="" />
                         </div>
                     </Col>
-                    <Col md={6}>
+                    <Col xs={6}>
                         <a href="https://body-marketing.com.tw/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img src={PartnerSectionImg7} alt="" />
@@ -77,14 +77,14 @@ const PartnerSection = ({language}) => {
                 </Row>
                 <Row className='align-items-center text-center my-4' rel='noreferrer noopener'>
                     <h2>協辦單位 | Co-organizer</h2>
-                    <Col md={6}>
+                    <Col xs={6}>
                         <a href="https://sherpa-sports.co/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-100' src={PartnerSectionImg8} alt="" />
                             </div>
                         </a>
                     </Col>
-                    <Col md={6}>
+                    <Col xs={6}>
                         <a href="https://admin.taiwan.net.tw/sunmoonlake/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img src={PartnerSectionImg9} alt="" />
@@ -95,7 +95,7 @@ const PartnerSection = ({language}) => {
 
                 <Row className='align-items-center text-center my-4'>
                     <h2>冠名贊助 | Presented by</h2>
-                    <Col md={12} className='center'>
+                    <Col xs={6} className='center'>
                         <a href="https://www.nutrilite.com.tw/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-100 my-5 logo-nu' src={PartnerSectionImg3} alt="" />
@@ -106,35 +106,35 @@ const PartnerSection = ({language}) => {
                 
                 <Row className='align-items-center text-center my-4'>
                     <h2>合作夥伴 | Official Partners</h2>
-                    <Col size={6} md={3} sm={6} className='py-4'>
+                    <Col size={12} xs={6} md={3} sm={6} className='py-4'>
                         <a href="https://www.kplus-helmet.com/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                             <img className='w-75' src={PartnerSectionImg4} alt="" />
                             </div>
                         </a>
                     </Col>
-                    <Col size={6} md={3} sm={6} >
+                    <Col size={12} xs={6} md={3} sm={6} >
                         <a href="https://www.titan-tech.com.tw/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-75' src={PartnerSectionImg10} alt="" />
                             </div>
                         </a>
                     </Col>
-                    <Col size={6} md={3} sm={6} >
+                    <Col size={12} xs={6} md={3} sm={6} >
                         <a href="https://www.boneshop.com/tw/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-75' src={PartnerSectionImg11} alt="" />
                             </div>
                         </a>
                     </Col>
-                    <Col size={6} md={3} sm={6} >
+                    <Col size={12} xs={6} md={3} sm={6} >
                         <a href="https://tw.oakley.com/zh" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-75' src={PartnerSectionImg14} alt="" />
                             </div>
                         </a>
                     </Col>
-                    <Col size={6} md={3} sm={6} >
+                    <Col size={12} xs={6} md={3} sm={6} >
                         <a href="https://www.mommyhappy.com/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-75' src={PartnerSectionImg6} alt="" />
