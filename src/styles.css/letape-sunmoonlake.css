@@ -124,7 +124,7 @@
 
 .letape-sunmoonlake .season .season-bx2 p {
     font-size: 20px;
-    line-height: 2;
+    line-height: 1.5;
     color: #fff;
 }
 
@@ -136,7 +136,6 @@
     border-radius: 30px;
     overflow: hidden;
     margin-bottom: 24px;
-    
 }
 
 .letape-sunmoonlake .season .season-bx2 h4 {

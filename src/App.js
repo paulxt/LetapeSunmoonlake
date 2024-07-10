@@ -22,9 +22,13 @@ import BecomePart from './pages/BecomePart';
 import Volunteer from './pages/Volunteer';
 import Faq from './pages/Faq';
 
+//GA4
+import ReactGA from 'react-ga4';
+const TRACKING_ID = "G-F3GZ4H7DPY"; // your Measurement ID
 
 function App() {
-  const [language, setLanguage] = useState('');
+  //Language Function
+  const [language, setLanguage] = useState("");
   const toggleLanguage = () => {
     language === 'Chinese' ? setLanguage('English') : setLanguage('Chinese');
   }
@@ -95,7 +99,27 @@ function App() {
     },
   ]
 
-
+  //GA4 function
+  useEffect(() => {
+    ReactGA.initialize(TRACKING_ID);
+    // Send pageview with a custom path
+    ReactGA.send({ hitType: "pageview", page: "/", title: "Home Page" });
+    ReactGA.send({ hitType: "pageview", page: "/about-letape", title: "About Letape" });
+    ReactGA.send({ hitType: "pageview", page: "/about-tdf", title: "About Tu De France" });
+    ReactGA.send({ hitType: "pageview", page: "/event-info", title: "Event" });
+    ReactGA.send({ hitType: "pageview", page: "/race-kit", title: "Race Kit" });
+    ReactGA.send({ hitType: "pageview", page: "/104k-route", title: "Route 104KM" });
+    ReactGA.send({ hitType: "pageview", page: "/29k-route", title: "Route 29KM" });
+    ReactGA.send({ hitType: "pageview", page: "/contact-us", title: "Contact Us" });
+    ReactGA.send({ hitType: "pageview", page: "/sponsor", title: "Sponsor & Partner" });
+    ReactGA.send({ hitType: "pageview", page: "/letape-du-tour", title: "Letape Du Tour" });
+    ReactGA.send({ hitType: "pageview", page: "/media", title: "Media" });
+    ReactGA.send({ hitType: "pageview", page: "/letape-sunmoonlake", title: "Letape Sun Moon Lake" });
+    ReactGA.send({ hitType: "pageview", page: "/join-us", title: "Join Us" });
+    ReactGA.send({ hitType: "pageview", page: "/volunteer", title: "Volunteer" });
+    ReactGA.send({ hitType: "pageview", page: "/faq", title: "FAQ" });
+}, [])
+  
   return (
     <Router>
       <NavBar language={language} toggleLanguage={toggleLanguage} />

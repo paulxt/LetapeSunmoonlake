@@ -7,12 +7,12 @@ import Banner from '../components/LetapeSunMoonLake/Banner';
 import Desc from '../components/LetapeSunMoonLake/Desc';
 import Season from '../components/LetapeSunMoonLake/Season';
 
-const LetapeSunMoonLake = () => {
+const LetapeSunMoonLake = ({language}) => {
     return (
         <div className='letape-sunmoonlake'>
-            <Banner />
-            <Desc />
-            <Season />
+            <Banner language={language} />
+            <Desc language={language} />
+            <Season language={language} />
         </div>
     )
 }

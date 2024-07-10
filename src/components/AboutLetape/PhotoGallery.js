@@ -100,7 +100,7 @@ const slides = [
     },
 ]
 
-const PhotoGallery = () => {
+const PhotoGallery = ({language}) => {
 
     const responsive = {
         //the naming can be any, depends on you.
@@ -127,13 +127,11 @@ const PhotoGallery = () => {
     const handleSelect = (selectedIndex) => {
         setIndex(selectedIndex);
     };
-
-
     return (
         <section className="about-letape-photogallery">
             <Container>
                 <Row className='align-items-center'>
-                    <h2>珍貴的照片集錦</h2>
+                    {language === "Chinese" ? <h2>珍貴的照片集錦</h2> : <h2>Explore L’Étape Series</h2>}
                     <Col>
                         <div className="media">
                             <iframe src="https://www.youtube.com/embed/QNwZOyDAagE?si=MDZgTDVL3gRfeyDg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

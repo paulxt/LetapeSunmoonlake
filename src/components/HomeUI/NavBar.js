@@ -92,13 +92,12 @@ const NavBar = ({ language, toggleLanguage}) => {
                         <HashLink to='https://bao-ming.com/eb/content/6179#29049' target='_blank'>
                             <button className="vvd"><span>Sign Up</span></button>
                         </HashLink>
-                        
                     </span>
                     <a className='nav-logo2-a' href="https://www.nutrilite.com.tw/" target='_blank' rel='noreferrer'><img src={logo3} alt="Logo2" className='nav-logo2'/></a>
                     <div className="language">
                         <span onClick={toggleLanguage}>
                             {
-                                language === 'Chinese' ?(<span>ENGLISH</span>)
+                                language === "Chinese" ?(<span>ENGLISH</span>)
                                     : (<span>中文</span>)
                             }
                         </span>

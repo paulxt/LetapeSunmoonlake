@@ -7,12 +7,12 @@ import KOM from '../components/Route104/KOM';
 import YellowShirt from '../components/Route104/YellowShirt';
 import Introduction from '../components/LetapeDuTour/Introduction';
 
-const LetapeDuTour = () => {
+const LetapeDuTour = ({language}) => {
     return (
         <div className='letape-du-tour'>
-            <Banner />
-            <Introduction />
-            <YellowShirt />
+            <Banner language={language} />
+            <Introduction language={language} />
+            <YellowShirt language={language} />
             <KOM />
         </div>
     )

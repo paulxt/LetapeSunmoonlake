@@ -1,7 +1,8 @@
 /************* About Tu De France CSS  *************/
 .about-tdf iframe {
-    width: 100%;
+    width: 90%;
     height: 400px;
+    margin-left: 5%;
 }
 
 .about-tdf img {

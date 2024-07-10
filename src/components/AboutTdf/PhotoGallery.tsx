@@ -164,7 +164,7 @@ const slides = [
     },
 ]
 
-const PhotoGallery = () => {
+const PhotoGallery = ({language}) => {
 
     const [index, setIndex] = useState(-1);
 
@@ -172,7 +172,7 @@ const PhotoGallery = () => {
         <section className="photo-gallery mb-5">
             <Container>
                 <Row className='align-items-center'>
-                    <h2 className='text-center'>珍貴的相片集錦</h2>
+                    <h2 className='text-center'>{language === "Chinese"? "珍貴的相片集錦" : "L’Étape Series"}</h2>
                     <Col>
                         <LightBox 
                             plugins={[Counter, Thumbnails]}
