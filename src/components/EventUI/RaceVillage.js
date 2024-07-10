@@ -8,20 +8,21 @@ import RaceVillageImg1 from '../../assets/img/race-village-img1.png';
 import RaceVillageImg2 from '../../assets/img/race-village-img2.png';
 import RaceVillageImg3 from '../../assets/img/race-village-img3.png';
 
-const RaceVillage = () => {
+const RaceVillage = ({language}) => {
     return (
         <section className='race-village' id='race-village'>
             <Container>
                 <Row className='align-items-center'>
                     <Col md={6} className='race-village-bx'>
-                        <h2><span><img className='village-icon' src={RouteMapImg4} alt="" /></span>環法小鎮</h2>
-                        <h3 className='mt-5'>現場打造環法嘉年華 <br/>
-                        體驗TDF氛圍！</h3>
+                        <h2><span><img className='village-icon' src={RouteMapImg4} alt="" /></span>{language === "Chinese" ? "環法小鎮" : "Race Village"}</h2>
+                        {language === "Chinese" ? <h3 className='mt-5'>現場打造環法嘉年華 <br />體驗TDF氛圍！</h3>
+                            : <h3 className='mt-5'>Create Tour de France carnival on-site Experience the TDF atmosphere!</h3> }
+                        
                         <h3 className='mb-5'>Museé du Tour de France </h3>
                         <ul>
-                            <li>環法歷史展示區與簽名牆</li>
-                            <li>經典拍照獎台、車迷日</li>
-                            <li>合作夥伴攤位互動區</li>
+                            <li>{language === "Chinese" ? "環法歷史展示區與簽名牆" : "Tour de France history  area and autograph wall"}</li>
+                            <li>{language === "Chinese" ? "經典拍照獎台、車迷日" : "Photo podium, Fan Day"}</li>
+                            <li>{language === "Chinese" ? "合作夥伴攤位互動區" : "Partner booths interaction area"}</li>
                         </ul>
                         <a href="https://bao-ming.com/eb/content/6179#29049" target="_blank" rel='noreferrer noopener'><button>REGISTER NOW <ArrowRightCircle size={25} /></button>   </a> 
                     </Col>

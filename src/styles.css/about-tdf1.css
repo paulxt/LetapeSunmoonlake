@@ -5,6 +5,10 @@
     margin-left: 5%;
 }
 
+.about-tdf h2 {
+    font-weight: 700;
+}
+
 .about-tdf img {
     vertical-align: center;
 }
@@ -138,6 +142,7 @@
 .about-tdf .timeline .item h2 {
     font-size: 32px;
     margin-bottom: 20px;
+    font-weight: 600;
 }
 
 /* Verticle Line Aviation */

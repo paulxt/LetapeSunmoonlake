@@ -1,4 +1,4 @@
-/* English Fonts */
+/******* English Fonts *******/
 @font-face {
   font-family: Galibier;
   src: url('./assets/font/Galibier-Bold.otf');
@@ -8,16 +8,38 @@
 @font-face {
   font-family: Galibier;
   src: url('./assets/font/Galibier-Regular.otf');
-  font-weight: 500;
+  font-weight: 400;
 }
 
 @font-face {
   font-family: Galibier;
   src: url('./assets/font/Galibier-Light.otf');
-  font-weight: 400;
+  font-weight: 300;
 }
 
-/* Chinese Fonts */
+/**** Italic ****/
+@font-face {
+  font-family: Galibier;
+  src: url('./assets/font/Galibier-Bolditalic.otf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Galibier;
+  src: url('./assets/font/Galibier-Regularitalic.otf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Galibier;
+  src: url('./assets/font/Galibier-Lightitalic.otf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/****** Chinese Fonts ******/
 @font-face {
   font-family: alibaba;
   src: url('./assets/font/Alibaba-PuHuiTi-Heavy.ttf');
@@ -132,7 +154,7 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 nav.navbar a.navbar-brand {
-    width: 30%;
+    width: 20%;
 }
 nav.navbar .navbar-nav .nav-link {
   font-weight: 400;
@@ -332,8 +354,8 @@ nav.navbar.scrolled .nav-logo {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.jpg');
-  background-position: top center;
+  background-image: url('./assets/img/banner-new-bg2.jpg');
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }

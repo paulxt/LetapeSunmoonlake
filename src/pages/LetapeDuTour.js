@@ -13,7 +13,7 @@ const LetapeDuTour = ({language}) => {
             <Banner language={language} />
             <Introduction language={language} />
             <YellowShirt language={language} />
-            <KOM />
+            <KOM language={language} />
         </div>
     )
 }

@@ -12,18 +12,18 @@ import Traffic from '../components/EventUI/Traffic';
 import Precaution from '../components/EventUI/Precaution';
 import RaceVillage from '../components/EventUI/RaceVillage';
 
-const Event = () => {
+const Event = ({language}) => {
     return (
         <div className='event'>
-            <EventBanner />
-            <EventInfo />
-            <Division />
-            <Procedure />
-            <RaceVillage />
-            <Reward />
+            <EventBanner language={language} />
+            <EventInfo language={language} />
+            <Division language={language} />
+            <Procedure language={language} />
+            <RaceVillage language={language} />
+            <Reward language={language} />
             {/* <SiteMap /> */}
-            <Traffic />
-            <Precaution />
+            <Traffic language={language} />
+            <Precaution language={language} />
         </div>
     )
 }

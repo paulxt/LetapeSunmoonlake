@@ -149,6 +149,7 @@
 .yellow-shirt h2 {
     padding: 10px;
     font-size: 50px;
+    font-weight: 700;
 }
 
 .yellow-shirt .title-icon {
@@ -159,6 +160,12 @@
 .yellow-shirt h3 {
     font-size: 34px;
     margin-bottom: 10px;
+    font-weight: 700;
+}
+.yellow-shirt h4 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 400;
 }
 
 .yellow-shirt p {
@@ -175,17 +182,16 @@
 .yellow-shirt .yellow-shirt1 {
     width: 80%;
     height: auto;
-    /* width: 50%;
-    position: relative;
-    top: 50px; */
 }
 
-/* .yellow-shirt .yellow-shirt2 {
-    width: 80%;
+.yellow-shirt h3 span.top {
+    font-size: 80px;
+    margin-left: 40px;
     position: relative;
-    bottom: 100px;
-    left: 200px;
-} */
+    top: 30px;
+    font-style: italic;
+    font-weight: 700;
+}
 
 /************* Route 104 KOM  *************/
 .KOM h2 {

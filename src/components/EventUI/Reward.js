@@ -4,19 +4,19 @@ import { Container, Row, Col } from 'react-bootstrap'
 import YellowShirt from '../Route104/YellowShirt';
 import KOM from '../Route104/KOM';
 
-const Reward = () => {
+const Reward = ({language}) => {
     return (
         <section className="event-reward mt-5">
             <Container>
                 <Row className='align-items-center'>
                     <Col className='px-1 mb-5'>
-                        <YellowShirt/>
+                        <YellowShirt language={language} />
                     </Col>
                     
                 </Row>
                 <Row className='align-items-center'>
                     <Col className="mt-5">
-                        <KOM />
+                        <KOM language={language} />
                     </Col>
                 </Row>
             </Container>

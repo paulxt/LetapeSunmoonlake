@@ -12,7 +12,7 @@ import logo from '../../assets/img/logo.png';
 import navIcon2 from '../../assets/img/nav-icon2.svg';
 import navIcon3 from '../../assets/img/nav-icon3.svg';
 
-import logo3 from '../../assets/img/logo-nu.png'
+import logo3 from '../../assets/img/logo-nu-white.png'
 
 // Hook
 import { useState, useEffect } from 'react';
