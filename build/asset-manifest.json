@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7ea08915.css",
-    "main.js": "/static/js/main.5b5f34ba.js",
+    "main.js": "/static/js/main.2b3793d8.js",
     "static/media/Intro.mp4": "/static/media/Intro.6d8ba1f52d316f043445.mp4",
     "static/media/about-letape-des-img5.jpg": "/static/media/about-letape-des-img5.5cb724eaa32788297ee5.jpg",
     "static/media/Alibaba-PuHuiTi-Regular.ttf": "/static/media/Alibaba-PuHuiTi-Regular.560e3e1f3b429a424119.ttf",
@@ -253,10 +253,10 @@
     "index.html": "/index.html",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.7ea08915.css.map": "/static/css/main.7ea08915.css.map",
-    "main.5b5f34ba.js.map": "/static/js/main.5b5f34ba.js.map"
+    "main.2b3793d8.js.map": "/static/js/main.2b3793d8.js.map"
   },
   "entrypoints": [
     "static/css/main.7ea08915.css",
-    "static/js/main.5b5f34ba.js"
+    "static/js/main.2b3793d8.js"
   ]
 }
