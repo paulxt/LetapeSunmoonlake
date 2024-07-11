@@ -25,11 +25,11 @@ const YellowShirt = ({language}) => {
                         <p>{language === "Chinese"? "❷ 控燈交管僅提供前方競賽組集團，競賽組落後之選手與挑戰組選手，須按照交通號誌與規章行進。" : "❷ Traffic light control is provided only for the leading race group. Participants lagging behind in the race group and those in the challenge group must follow traffic signals and regulations."}</p>
                         {language === "Chinese" ? <p>❸ 欲報名競賽組選手，請填寫<a href="https://forms.gle/bQsa2nvfSr79cBXL8" target='_blank' rel='noreferrer noopener'>報名表單</a>，上傳其他賽事完賽證明、名次成績等有利事蹟，將由主辦單位聯繫並邀請專家審核，審核通過即通知您並正式成為菁英競賽組選手。</p>
                             : <p>❸ Participants wishing to register for the competition group should fill out the <a href="https://forms.gle/bQsa2nvfSr79cBXL8" target='_blank' rel='noreferrer noopener'>Registration Form</a>, upload proof of completion of other races, rankings, and other relevant achievements. The organizers will contact and invite experts for review. Once approved, you will be notified and officially become a competition group participant.</p>}
-                        <p>{language === "Chinese"? "❹ 競賽組計時取總計時冠軍，計時前三名可上台獲頒獎座，總冠軍可額外榮獲以下獎項及代表席次：" : "❹ The race group timing will determine the overall time champion. The top three in timing can go on stage to receive trophies, and the champion will receive the following awards and representative right:"}</p>
+                        <p>{language === "Chinese"? "❹ 競賽組計時取總計時冠軍，計時前三名可上台獲頒獎座，前三名可額外榮獲以下獎項及代表席次：" : "❹ The race group timing will determine the overall time champion. The top three in timing can go on stage to receive trophies, and the top 3 will receive the following awards and representative right:"}</p>
                         <ul>
                             <li className='text-danger'>{language === "Chinese"? "前往法國參加2025 L’ÉTape France 錦標賽資格。" : "Qualification to participate in the 2025 L’ÉTape France Championship in France."}</li>
                             <li>{language === "Chinese"? "舞台授獎儀式" : "Award ceremony on stage."}</li>
-                            <li>{language === "Chinese"? "授予環法最高榮譽黃衫" : "Awarded the highest honor of the Tour de France yellow jersey."}</li>
+                            <li>{language === "Chinese"? "授予環法最高榮譽黃衫（總冠軍）" : "Awarded the highest honor of the Tour de France yellow jersey. ( Champion ) "}</li>
                             <li>{language === "Chinese"? "獎座" : "Trophy."}</li>
                         </ul>
                     </Col>

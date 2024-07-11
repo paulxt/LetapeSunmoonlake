@@ -47,15 +47,71 @@ const questions = [
     },
 ]
 
-const SignUpQ = () => {
+const questionsEng = [
+    {
+        no: "01",
+        title: "How can I sign up for L’ÉTAPE SUN MOON LAKE ?",
+        ans: `Online registration only: Register via the online registration platform. Registration link: https://bao-ming.com/eb/content/6179#29052.`,
+    },
+    {
+        no: "02",
+        title: "After I sign up, how do I make payment? Is there a deadline for payment?",
+        ans: "After registration, you can make payment at major convenience stores or online by credit card. Please complete the payment within 72 hours of registration. Orders not paid within this period will be automatically canceled by the system.",
+    },
+    {
+        no: "03",
+        title: "What should I do if I cannot participate after signing up?",
+        ans: `This event offers three refund options as follows. To apply for a refund, please fill out the form: (https://forms.gle/bQsa2nvfSr79cBXL8) .
+        1. Within 7 days after completing payment, you can apply for an 80% refund of the registration fee and postage. 
+        2. From 7 days after completing payment until the organizer sends out the materials, you can apply for a 60% refund of the registration fee and postage.
+        3. After the organizer has dispatched the materials, if there are natural disasters, war, military service, or other force majeure events, 50% of the registration fee will be refunded. Refunds will not be accepted for other reasons. We apologize for any inconvenience caused.`,
+    },
+    {
+        no: "04",
+        title: "Can I make changes to the information entered if I find errors after registration?",
+        ans: "For those who have not yet paid the registration fee: You can log into the registration system to check and correct athlete information. Once the registration fee has been paid, modifications will not be allowed. Please fill out the registration information carefully.",
+    },
+    {
+        no: "05",
+        title: "What should I do if the order shows as overdue?",
+        ans: "You can check and extend your order within the registration system. For assistance, you can call 02-55915658#25 to speak with a representative. Orders cannot be extended after the registration deadline.",
+    },
+    {
+        no: "06",
+        title: "If I've already registered and paid but need to add another participant to the same order, what should I do?",
+        ans: "Please have the newly added participant go through the registration process first without making payment. Then, call us and provide the order numbers for both paid and unpaid registrations. Our staff will assist in managing these in our system and will notify the participant about any additional payment required.",
+    },
+    {
+        no: "07",
+        title: "How can I request an invoice if needed?",
+        ans: "Please fill out the application form for requesting an electronic receipt (https://forms.gle/bQsa2nvfSr79cBXL8). All receipts will be electronic and will be issued one week after the event ends, then sent to the email address you provide.",
+    },
+    {
+        no: "08",
+        title: "How do I apply for a refund?",
+        ans: `This event offers three refund options as follows. To apply for a refund, please fill out the form: [https://forms.gle/bQsa2nvfSr79cBXL8] .
+        1. Within 7 days after completing payment, you can apply for an 80% refund of the registration fee and postage.
+        2. From 7 days after completing payment until the organizer sends out the materials, you can apply for a 60% refund of the registration fee and postage.
+        3. After the organizer has dispatched the materials, if there are natural disasters, war, military service, or other force majeure events, 50% of the registration fee will be refunded. Refunds will not be accepted for other reasons. We apologize for any inconvenience caused.`,
+    },
+]
+
+const SignUpQ = ({language}) => {
     return (
         <section className="faq-signup">
             <Container>
                 <Row className='align-items-center faq-section'>
-                    <h2 className='faq-header'><span><img className='faq-icon' src={TitleIcon1} alt="" /></span>報名與繳費相關</h2>
-                    {
-                        questions.map(( q, index) => (
-                            <FaqCard 
+                    <h2 className='faq-header'><span><img className='faq-icon' src={TitleIcon1} alt="" /></span>{language === "Chinese" ? "報名與繳費相關" : ""}</h2>
+                    {language === "Chinese" ? 
+                        questions.map((q, index) => (
+                            <FaqCard
+                                key={index}
+                                {...q}
+                            />
+                        ))
+                    : 
+                        questionsEng.map((q, index) => (
+                            <FaqCard
                                 key={index}
                                 {...q}
                             />

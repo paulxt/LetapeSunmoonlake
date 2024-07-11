@@ -6,7 +6,7 @@
     width: 100%!important;
     border: none!important;
 }
-.event h3 {
+.event h2, .event h3 {
     font-weight: 700;
 }
 

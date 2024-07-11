@@ -14,23 +14,23 @@ import RouteMapImg10 from '../../assets/img/route104-map-img10.png';
 
 import RouteMapImg11 from '../../assets/img/route104-map-img11.jpg';
 
-const RouteMap = () => {
+const RouteMap = ({language}) => {
     return (
         <section className="route-map">
-            <h5><span>路線地圖</span></h5>
+            <h5><span>{language === "Chinese" ? "路線地圖" : "Map"}</span></h5>
             <Container>
                 <Row className='align-items-center'>
                     <Col md={6}>
                         <Row className='align-items-center'>
                             <Col>
                                 <h2>
-                                    <span className='theme-color'><em>104K</em></span>
+                                    <span className='theme-color'><em>{language === "Chinese" ? "" : ""}104K</em></span>
                                 </h2>
-                                <p>路線長度</p>
+                                <p>{language === "Chinese" ? "路線長度" : "KILOMETERS"}</p>
                             </Col>
                             <Col>
                                 <h2><span className='theme-color'><em>+1500m</em></span></h2>
-                                <p>爬升高度</p>
+                                <p>{language === "Chinese" ? "爬升高度" : "ELEVATION"}</p>
                             </Col>
                         </Row>
                         <Row className='align-items-center pl-5 mt-5'>
@@ -39,19 +39,19 @@ const RouteMap = () => {
                                     <img src={RouteMapImg1} alt="" />
                                     <img src={RouteMapImg2} alt="" />
                                 </div>
-                                <h3>起點：向山遊客中心 <span className='theme-color'><em>0K</em></span></h3>
+                                <h3>{language === "Chinese" ? "起點：向山遊客中心 " : "Start Point：Xiangshan Visitor Center "}<span className='theme-color'><em>0K</em></span></h3>
                             </div>
                             <div className="route-map-bx">
                                 <div className="map-logo">
                                     <img src={RouteMapImg3} alt="" />
                                 </div>
-                                <h3>終點：向山遊客中心 <span className='theme-color'><em>104K</em></span></h3>
+                                <h3>{language === "Chinese" ? "終點：向山遊客中心 " : "End Point：Xiangshan Visitor Center "}<span className='theme-color'><em>104K</em></span></h3>
                             </div>
                             <div className="route-map-bx">
                                 <div className="map-logo">
                                     <img src={RouteMapImg4} alt="" />
                                 </div>
-                                <h3>環法小鎮：向山遊客中心 <span className='theme-color'><em>0K</em></span></h3>
+                                <h3>{language === "Chinese" ? "環法小鎮：向山遊客中心" : "L’ÉTAPE Village：Xiangshan Visitor Center"} <span className='theme-color'><em>0K</em></span></h3>
                             </div>
                             <div className="route-map-bx">
                                 <div className="map-logo">
@@ -59,7 +59,7 @@ const RouteMap = () => {
                                     <img src={RouteMapImg6} alt="" />
                                     <img src={RouteMapImg7} alt="" />
                                 </div>
-                                <h3>登山王計時賽段一（2級坡）： <span className='theme-color'><em>43K-52K</em></span></h3>
+                                <h3>{language === "Chinese" ? "登山王計時賽段一（2級坡）： " : "KOM Timed Section A（ Category 2）："}<span className='theme-color'><em>43K-52K</em></span></h3>
                             </div>
                             <div className="route-map-bx">
                                 <div className="map-logo">
@@ -67,19 +67,19 @@ const RouteMap = () => {
                                     <img src={RouteMapImg6} alt="" />
                                     <img src={RouteMapImg8} alt="" />
                                 </div>
-                                <h3>登山王計時賽段二（1級坡）： <span className='theme-color'><em>70.5K-81.5K</em></span></h3>
+                                <h3>{language === "Chinese" ? "登山王計時賽段二（2級坡 ：" : "KOM Timed Section B（ Category 2）："} <span className='theme-color'><em>70.5K-81.5K</em></span></h3>
                             </div>
                             <div className="route-map-bx">
                                 <div className="map-logo">
                                     <img src={RouteMapImg9} alt="" />
                                 </div>
-                                <h3>補給站： <span className='theme-color'><em>32K、57.5K、69.5K</em></span></h3>
+                                <h3>{language === "Chinese" ? "補給站：" : "Feeding Station："} <span className='theme-color'><em>32K、57.5K、69.5K</em></span></h3>
                             </div>
                             <div className="route-map-bx">
                                 <div className="map-logo">
                                     <img src={RouteMapImg10} alt="" />
                                 </div>
-                                <h3>技術服務站： <span className='theme-color'><em>32K、57.5K、69.5K</em></span></h3>
+                                <h3>{language === "Chinese" ? "技術服務站：" : "Technical Assistance："} <span className='theme-color'><em>32K、57.5K、69.5K</em></span></h3>
                             </div>
                         </Row>
                     </Col>

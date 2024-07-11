@@ -4,7 +4,7 @@ import SignUpGift from './SignUpGift';
 import FinisherGift from './FinisherGift';
 import AddOnGift from './AddOnGift';
 
-const Gift = () => {
+const Gift = ({language}) => {
     return (
         <section className="racekit-gift">
             <Container>
@@ -13,24 +13,24 @@ const Gift = () => {
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">限定禮盒</Nav.Link>
+                                    <Nav.Link eventKey="first">{language === "Chinese" ? "限定禮盒" : "Race Kit"}</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">完賽好禮</Nav.Link>
+                                    <Nav.Link eventKey="second">{language === "Chinese" ? "完賽好禮" : "Finisher’s Gift"}</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="third">加價購商品</Nav.Link>
+                                    <Nav.Link eventKey="third">{language === "Chinese" ? "加價購商品" : "Add-on Purchase"}</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content id="slideInUp" className=''>
                                 <Tab.Pane eventKey="first">
-                                    <SignUpGift />
+                                    <SignUpGift language={language} />
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="second">
-                                    <FinisherGift />
+                                    <FinisherGift language={language} />
                                 </Tab.Pane>
                                 <Tab.Pane eventKey="third">
-                                    <AddOnGift />
+                                    <AddOnGift language={language} />
                                 </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>

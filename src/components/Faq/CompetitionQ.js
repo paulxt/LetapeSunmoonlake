@@ -32,15 +32,50 @@ const questions = [
     },
 ]
 
-const CompetitionQ = () => {
+const questionsEng = [
+    {
+        no: "01",
+        title: "If I want to register for the 104K competitive category, where should I sign up?",
+        ans: "To register for the competitive category, please fill out the registration form (https://forms.gle/bQsa2nvfSr79cBXL8) and upload other race completion certificates, rankings, or any relevant achievements. The organizing committee will contact you for expert review. Upon approval, you will be notified and officially enrolled as a competitive category participant.",
+    },
+    {
+        no: "02",
+        title: "What specific qualifications are required to register for the 104K competitive Group?",
+        ans: "It is recommended to upload proof of having completed race distances of 100 kilometers or more, preferably in high-intensity competitive categories.",
+    },
+    {
+        no: "03",
+        title: "Is the trip to France only for the overall winner of the 104K race?",
+        ans: "Top three in the 104K time trial, as well as the King and Queen of the Mountain (KOM) champions, will qualify to participate in the championship in France.",
+    },
+    {
+        no: "04",
+        title: "Do I need to register separately for the KOM competiton?",
+        ans: "No. There are two King of the Mountain (KOM) climbing sections set during the race. The first section is from 43 km to 52 km, and the second section is from 70.5 km to 81.5 km. Both sections have timed segments, and the total time from these two sections will determine the ranking. Therefore, all participants will be included in the mountain climbing results.",
+    },
+    {
+        no: "05",
+        title: "Is this award an officially certified ranking by the Tour de France?",
+        ans: "Yes, as an official event of the L'Étape Series, all rankings at this station are certified by L'Étape official standards.",
+    },
+]
+
+const CompetitionQ = ({language}) => {
     return (
         <section className="faq-competition">
             <Container>
                 <Row className='align-items-center faq-section'>
-                    <h2 className='faq-header'><span><img className='faq-icon' src={FaqIcon1} alt="" /></span>競賽相關問題</h2>
-                    {
-                        questions.map(( q, index) => (
-                            <FaqCard 
+                    <h2 className='faq-header'><span><img className='faq-icon' src={FaqIcon1} alt="" /></span>{language === "Chinese" ? "競賽相關問題" : "Reward and Competition"}</h2>
+                    {language === "Chinese" ? 
+                        questions.map((q, index) => (
+                            <FaqCard
+                                key={index}
+                                {...q}
+                            />
+                        ))
+                    : 
+                        questionsEng.map((q, index) => (
+                            <FaqCard
                                 key={index}
                                 {...q}
                             />

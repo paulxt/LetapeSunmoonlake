@@ -10,15 +10,15 @@ import Slow from '../components/Route104/Slow';
 import RouteContent from '../components/Route104/RouteContent';
 import RouteSpotlight from '../components/Route104/RouteSpotlight';
 
-const Route104 = () => {
+const Route104 = ({language}) => {
     return (
         <div className='route-104'>
-            <Route104Banner />
-            <RouteMap />
-            <RouteGpx />
-            <Slow />
-            <RouteContent />
-            <RouteSpotlight />
+            <Route104Banner language={language} />
+            <RouteMap language={language} />
+            <RouteGpx language={language} />
+            <Slow language={language} />
+            <RouteContent language={language} />
+            <RouteSpotlight language={language} />
         </div>
     )
 }

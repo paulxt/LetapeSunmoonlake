@@ -16,6 +16,7 @@ import PartnerSectionImg11 from '../../assets/img/partner-section-img11.png'; //
 import PartnerSectionImg12 from '../../assets/img/partner-section-img12.png'; //南投縣
 import PartnerSectionImg13 from '../../assets/img/partner-section-img13.png'; //推廣協會
 import PartnerSectionImg14 from '../../assets/img/partner-section-img14.png'; //Oakley
+import PartnerSectionImg15 from '../../assets/img/partner-section-img15.jpg'; //Oakley
 
 
 
@@ -138,6 +139,13 @@ const PartnerSection = ({language}) => {
                         <a href="https://www.mommyhappy.com/" target='_blank' rel='noreferrer noopener'>
                             <div className="img-bx">
                                 <img className='w-75' src={PartnerSectionImg6} alt="" />
+                            </div>
+                        </a>
+                    </Col>
+                    <Col size={12} xs={6} md={3} sm={6} >
+                        <a href="https://www.deya.tw" target='_blank' rel='noreferrer noopener'>
+                            <div className="img-bx">
+                                <img className='w-75' src={PartnerSectionImg15} alt="" />
                             </div>
                         </a>
                     </Col>

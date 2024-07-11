@@ -25,7 +25,7 @@ const Banner = ({language}) => {
                         <p>{language === "Chinese" ? "據說，瘋狂和天才之間的界限很清楚，在 20 世紀初的法國，任何人如果設想在全國範圍內進行近 2,500 公里長的自行車比賽，都會被廣泛認為是精神錯亂。但這並沒有阻止當時 L'Auto 雜誌的記者 Géo Lefèvre 繼續實施他的靈感計劃。他的編輯亨利·德格朗日（Henri Desgrange）大膽地相信了這個想法，並支持環法自行車賽。" : "It is said that the boundary between madness and genius is very clear. In early 20th-century France, anyone who suggested a nearly 2,500-kilometer long nationwide bicycle race would be widely considered insane. However, this did not stop Géo Lefèvre, a journalist from L'Auto magazine, from pursuing his inspirational plan. His editor, Henri Desgrange, boldly believed in the idea and supported the Tour de France."}</p>
                     </Col>
                     <Col md={8}>
-                        <iframe height="393" src="https://www.youtube.com/embed/ekIGyvfiubs?si=GV0qtIr7v37En0VL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe height={393} src="https://www.youtube.com/embed/7Wp9Y_SV48w?si=2x3AbsDo5o0CLfx3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </Col>
                 </Row>
             </Container>

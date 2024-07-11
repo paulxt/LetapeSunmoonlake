@@ -8,14 +8,14 @@ import GiftQ from '../components/Faq/GiftQ';
 import RouteQ from '../components/Faq/RouteQ';
 import CompetitionQ from '../components/Faq/CompetitionQ';
 
-const Faq = () => {
+const Faq = ({language}) => {
     return (
         <div className="faq">
-            <Banner />
-            <SignUpQ />
-            <GiftQ />
-            <RouteQ />
-            <CompetitionQ />
+            <Banner language={language} />
+            <SignUpQ language={language} />
+            <GiftQ language={language} />
+            <RouteQ language={language} />
+            <CompetitionQ language={language} />
         </div>
     )
 }

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3411977.css",
-    "main.js": "/static/js/main.8ec68a2c.js",
+    "main.css": "/static/css/main.ceb7dcc6.css",
+    "main.js": "/static/js/main.ea0bbdfa.js",
     "static/media/Intro.mp4": "/static/media/Intro.6d8ba1f52d316f043445.mp4",
     "static/media/about-letape-des-img5.jpg": "/static/media/about-letape-des-img5.5cb724eaa32788297ee5.jpg",
     "static/media/Alibaba-PuHuiTi-Regular.ttf": "/static/media/Alibaba-PuHuiTi-Regular.560e3e1f3b429a424119.ttf",
@@ -224,6 +224,7 @@
     "static/media/about-letape-banner2-bg.png": "/static/media/about-letape-banner2-bg.91e4ee4c49b6ed209dc9.png",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/route-104-spotlight-img1.jpg": "/static/media/route-104-spotlight-img1.18d3dc9088c20d95d1b3.jpg",
+    "static/media/partner-section-img15.jpg": "/static/media/partner-section-img15.d2db6b291b4102986737.jpg",
     "static/media/partner-section-img14.png": "/static/media/partner-section-img14.eb033e39e002e1813dac.png",
     "static/media/home-des1-img-2.png": "/static/media/home-des1-img-2.3ce51de42d9c9eb4ee16.png",
     "static/media/about-tdf-timeline-img3.jpg": "/static/media/about-tdf-timeline-img3.636d024a111a95dbc2d2.jpg",
@@ -261,11 +262,11 @@
     "static/media/nav-icon3.svg": "/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/index.html",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.b3411977.css.map": "/static/css/main.b3411977.css.map",
-    "main.8ec68a2c.js.map": "/static/js/main.8ec68a2c.js.map"
+    "main.ceb7dcc6.css.map": "/static/css/main.ceb7dcc6.css.map",
+    "main.ea0bbdfa.js.map": "/static/js/main.ea0bbdfa.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3411977.css",
-    "static/js/main.8ec68a2c.js"
+    "static/css/main.ceb7dcc6.css",
+    "static/js/main.ea0bbdfa.js"
   ]
 }

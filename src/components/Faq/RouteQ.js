@@ -37,16 +37,56 @@ const questions = [
     },
 ]
 
+const questionsEng = [
+    {
+        no: "01",
+        title: "Where can I see the route?",
+        ans: "Please visit our official website ➜ 'Race Routes'; click on 'Race Routes' to view elevation charts for different routes. You can also download GPX files from our official website to your phone. (For download instructions, please refer to the Race Routes section).",
+    },
+    {
+        no: "02",
+        title: "Are these routes officially certified by the Tour de France?",
+        ans: "Indeed. Both the 104K and 29K routes of this event are certified by official Tour de France experts and comply with Tour de France regulations for climbing category classification.",
+    },
+    {
+        no: "03",
+        title: "Will the event have full road closures and traffic control?",
+        ans: "This event  takes  road closures with rolling adjustment. The 104K race timing group will be escorted by support vehicles throughout the entire course. Scheduled closure points and routes: Details will be announced in the event handbook distributed before the event, specifying the slowest expected closure times. After closure times, volunteer support along the original event route will cease.",
+    },
+    {
+        no: "04",
+        title: "Where are the supply stations located?",
+        ans: "104K Challenge Group: Aid Stations at 32K, 57.5K, 69.5K; Technical Support Stations at 32K, 57.5K, 69.5K. 29K: No aid stations along the route; participants are advised to carry their own supplies and energy food based on personal needs.",
+    },
+    {
+        no: "05",
+        title: "When can I download the participant handbook?",
+        ans: "The participant handbook will be released and made available for download no later than one month before the event starts. Stay tuned!",
+    },
+    {
+        no: "06",
+        title: "Where can I find the layout map of the event venue on the day of the event?",
+        ans: "The main venue map is still being finalized and will be announced on the 'Event Rules' page once confirmed.",
+    },
+]
 
-const RouteQ = () => {
+
+const RouteQ = ({language}) => {
     return (
         <section className="faq-route">
             <Container>
                 <Row className='align-items-center faq-section'>
-                    <h2 className='faq-header'><span><img className='faq-icon' src={FaqIcon1} alt="" /></span>路線與活動資訊相關問題</h2>
-                    {
-                        questions.map(( q, index) => (
-                            <FaqCard 
+                    <h2 className='faq-header'><span><img className='faq-icon' src={FaqIcon1} alt="" /></span>{language === "Chinese" ? "路線與活動資訊相關問題" : "Route and Event Information"}</h2>
+                    {language === "Chinese" ? 
+                        questions.map((q, index) => (
+                            <FaqCard
+                                key={index}
+                                {...q}
+                            />
+                        ))
+                    : 
+                        questionsEng.map((q, index) => (
+                            <FaqCard
                                 key={index}
                                 {...q}
                             />

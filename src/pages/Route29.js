@@ -9,17 +9,17 @@ import Slow from '../components/Route29/Slow';
 import RouteContent from '../components/Route29/RouteContent';
 import RouteSpotlight from '../components/Route29/RouteSpotlight';
 
-const Route104 = () => {
+const Route29 = ({language}) => {
     return (
         <div className='route-29'>
-            <Route29Banner />
-            <RouteMap />
-            <RouteGpx />
-            <Slow />
-            <RouteContent />
-            <RouteSpotlight />
+            <Route29Banner language={language} />
+            <RouteMap language={language} />
+            <RouteGpx language={language} />
+            <Slow language={language} />
+            <RouteContent language={language} />
+            <RouteSpotlight language={language} />
         </div>
     )
 }
 
-export default Route104
+export default Route29

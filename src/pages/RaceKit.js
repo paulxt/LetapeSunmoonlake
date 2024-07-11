@@ -5,11 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import RaceKitBanner from '../components/RaceKitUI/RaceKitBanner';
 import Gift from '../components/RaceKitUI/Gift';
 
-const RaceKit = () => {
+const RaceKit = ({ language }) => {
     return (
         <div className='race-kit'>
-            <RaceKitBanner />
-            <Gift />
+            <RaceKitBanner language={language} />
+            <Gift language={language} />
         </div>
     )
 }
