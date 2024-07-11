@@ -13,7 +13,7 @@ const RouteSpotlight = ({language}) => {
     return (
         <section className="route-spotlight mb-5">
             <Container>
-                <h2 className='mb-5'>{language === "Chinese" ? "" : ""}路線特色亮點</h2>
+                <h2 className='mb-5'>{language === "Chinese" ? "路線特色亮點" : "Route Highlight"}</h2>
                 <Row className='align-items-center'>
                     <Col md={4}>
                         <h3>玄光寺</h3>

@@ -101,7 +101,7 @@ const SignUpQ = ({language}) => {
         <section className="faq-signup">
             <Container>
                 <Row className='align-items-center faq-section'>
-                    <h2 className='faq-header'><span><img className='faq-icon' src={TitleIcon1} alt="" /></span>{language === "Chinese" ? "報名與繳費相關" : ""}</h2>
+                    <h2 className='faq-header'><span><img className='faq-icon' src={TitleIcon1} alt="" /></span>{language === "Chinese" ? "報名與繳費相關" : "Registration and payment-related questions"}</h2>
                     {language === "Chinese" ? 
                         questions.map((q, index) => (
                             <FaqCard
