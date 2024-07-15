@@ -4,11 +4,11 @@ import { Container, Row, Col } from 'react-bootstrap'
 //third video
 import IntroVideo from '../../assets/img/Intro.mp4';
 
-const Video = () => {
+const Video = ({language}) => {
     return (
         <section className="video-section">
             <Container>
-                <h2 className='theme-color mb-3'><em>影音專區</em></h2>
+                <h2 className='theme-color mb-3'><em>{language === "Chinese" ? "影音專區" : "VIDEO"}</em></h2>
                 <Row className='align-items-center'>
                     <Col md={6} className='px-2 py3'>
                         <iframe src="https://www.youtube.com/embed/YdNosghI3UI?si=aJr2ao-KVJw623mz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

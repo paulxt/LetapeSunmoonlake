@@ -155,22 +155,22 @@ const slides1 = [
     },
 ]
 
-const PhotoGallery = () => {
+const PhotoGallery = ({language}) => {
     const [index, setIndex] = useState(-1);
 
     return (
         <section className="photo-section">
             <Container>
                 <Row className='align-items-center mb-5'>
-                    <h2 className='theme-color mb-3'><em>相片專區</em></h2>
+                    <h2 className='theme-color mb-3'><em>{language === "Chinese" ? "相片專區" : "PHOTO"}</em></h2>
                     <Col size={12}>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
-                                    <Nav.Link eventKey="first">各國賽事精華</Nav.Link>
+                                    <Nav.Link eventKey="first">{language === "Chinese" ? "各國賽事精華" : "L’Étape series"}</Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item>
-                                    <Nav.Link eventKey="second">環法歷史特區</Nav.Link>
+                                    <Nav.Link eventKey="second">{language === "Chinese" ? "環法歷史特區" : "Tour de France Championship"}</Nav.Link>
                                 </Nav.Item>
                             </Nav>
                             <Tab.Content id="slideInUp">

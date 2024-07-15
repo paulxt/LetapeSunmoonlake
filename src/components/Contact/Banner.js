@@ -1,10 +1,10 @@
 import React from 'react';
-const Banner = () => {
+const Banner = ({language}) => {
     return (
         <section className='contact-banner'>
             <div className="contact-header">
-                <h1>聯絡我們</h1>
-            </div>
+                <h1>{language === "Chinese" ? "聯絡我們" : "CONTACT US"}</h1>
+            </div> 
             <img src="" alt="" />
         </section>
     )

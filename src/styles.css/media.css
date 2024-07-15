@@ -4,6 +4,11 @@
     height: 400px;
 }
 
+.media-page h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
 /************* Media Banner CSS  *************/
 .media-page .media-banner .media-header {
     background-image: url(../assets/img/about-letape-bg.jpg);
@@ -32,6 +37,8 @@
 }
 
 
+
+
 /************* Media Photo CSS  *************/
 .media-page .photo-section {
     position: relative;
@@ -53,7 +60,7 @@
     padding: 17px 0;
     color: #fff;
     width: 100%;
-    font-size: 17px;
+    font-size: 22px;
     letter-spacing: 0.8px;
     font-weight: 500;
     position: relative;

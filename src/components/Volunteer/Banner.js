@@ -8,11 +8,11 @@ import VolunteerBannerImg3 from '../../assets/img/volunteer-banner-img3.png';
 import VolunteerBannerImg4 from '../../assets/img/volunteer-banner-img4.png';
 
 
-const Banner = () => {
+const Banner = ({language}) => {
     return (
         <section className="volunteer-banner">
             <div className="volunteer-header">
-                <h1>志工招募</h1>
+                <h1>{language === "Chinese" ? "志工招募" : "VOLUNTEERS RECRUIT" }</h1>
             </div>
             <Container>
                 <Row className='align-items-center volunteer-banner-images' >

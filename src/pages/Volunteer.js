@@ -8,12 +8,12 @@ import Gift from '../components/Volunteer/Gift';
 
 
 
-const Volunteer = () => {
+const Volunteer = ({language}) => {
     return (
         <div className='volunteer' >
-            <Banner />
-            <Job />
-            <Gift />
+            <Banner language={language} />
+            <Job language={language} />
+            <Gift language={language} />
         </div>
     )
 }

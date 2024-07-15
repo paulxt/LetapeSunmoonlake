@@ -6,12 +6,12 @@ import Banner from '../components/Contact/Banner';
 import ContactForm from '../components/Contact/ContactForm';
 import ContactInfo from '../components/Contact/ContactInfo';
 
-const Contact = () => {
+const Contact = ({language}) => {
     return (
         <div className='contact-page'>
-            <Banner />
-            <ContactForm />
-            <ContactInfo />
+            <Banner language={language} />
+            <ContactForm language={language} />
+            <ContactInfo language={language} />
         </div>
     )
 }

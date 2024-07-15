@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Banner = () => {
+const Banner = ({language}) => {
     return (
         <section className="media-banner">
             <div className="media-header">
-                <h1>媒體專區</h1>
+                <h1>{language === "Chinese" ? "媒體專區" : "MEDIA"}</h1>
             </div>
             <img src="" alt="" />
         </section>

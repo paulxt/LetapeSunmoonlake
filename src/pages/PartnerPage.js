@@ -5,11 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import PartnerSection from '../components/HomeUI/PartnerSection'
 import PartnerBanner from '../components/PartnerPage/PartnerBanner';
 
-const PartnerPage = () => {
+const PartnerPage = ({language}) => {
     return (
         <div className='partner-page'>
-            <PartnerBanner/>
-            <PartnerSection />
+            <PartnerBanner language={language} />
+            <PartnerSection language={language} />
         </div>
     )
 }
