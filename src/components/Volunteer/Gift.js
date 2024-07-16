@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { ArrowRightCircle } from "react-bootstrap-icons";
 
 import VolunteerGiftImg1 from '../../assets/img/volunteer-gift-img1.png';
+import VolunteerGiftImg1Eng from '../../assets/img/volunteer-gift-img1-eng.png';
 
 const Gift = ({language}) => {
     return (
@@ -23,7 +24,7 @@ const Gift = ({language}) => {
                         </div>
                     </Col>
                     <Col md={6}>
-                        <img src={VolunteerGiftImg1} alt="" />
+                        {language === "Chinese" ? <img src={VolunteerGiftImg1} alt="" /> : <img src={VolunteerGiftImg1Eng} alt="" />}
                     </Col>
                 </Row>
             </Container>

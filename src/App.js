@@ -29,8 +29,9 @@ const TRACKING_ID = "G-F3GZ4H7DPY"; // your Measurement ID
 function App() {
   //Language Function
   const [language, setLanguage] = useState("");
-  const toggleLanguage = () => {
-    language === 'Chinese' ? setLanguage('English') : setLanguage('Chinese');
+  const toggleLanguage = (e) => {
+    e.preventDefault();
+    setLanguage(prev => prev === "Chinese" ? "English" : "Chinese");
   }
   useEffect(() => {
     document.body.className = language

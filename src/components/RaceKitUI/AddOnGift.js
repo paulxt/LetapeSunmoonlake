@@ -16,7 +16,7 @@ const AddOnGift = ({language}) => {
                             <img src={AddOnImg1} alt="" />
                             {language === "Chinese" ? <h3>自行車小帽<span className='sm-text'>（售價：$490元｜原價：$590元）</span></h3>
                                 : <h3>Cap<span className='sm-text'>(Disc Price: $490 | Original Price: $590)</span></h3>}
-                            <p className='text-center px-3'>{language === "Chinese" ? "" : ""}The cycling cap blends local magnolia flower embossed design with the branding of the international Tour de France Challenge. It not only showcases a unique style but also emphasizes comfort and functionality. Carefully designed materials and craftsmanship ensure comfort and performance during rides, allowing you to focus on every cycling experience.</p>
+                            <p className='text-center px-3'>{language === "Chinese" ? "自行車小帽融合了在地海棠花壓紋設計，並結合了國際環法挑戰賽事的品牌標誌，不僅展現了獨特的風格，更注重舒適度與功能性。精心設計的材料與製作工藝，確保騎行中的舒適感與效能，讓您專注於每一次的騎行體驗。" : "The cycling cap blends local magnolia flower embossed design with the branding of the international Tour de France Challenge. It not only showcases a unique style but also emphasizes comfort and functionality. Carefully designed materials and craftsmanship ensure comfort and performance during rides, allowing you to focus on every cycling experience."}</p>
                         </div>
                     </Col>
                     <Col md={6} className='px-2 py-3'>

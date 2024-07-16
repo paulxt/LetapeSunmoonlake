@@ -161,7 +161,7 @@ nav.navbar .navbar-nav .nav-link {
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
-  font-size: 18px;
+  font-size: 14px;
   opacity: 0.75;
 }
 nav.navbar .navbar-nav a.nav-link:hover,
@@ -510,11 +510,11 @@ nav.navbar.scrolled .nav-logo {
 
 /* home des 3 */
 .home-des3 {
-  background-image: url('./assets/img/home-des3-bg.png');
+  background-image: url('./assets/img/home-des3-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   padding: 150px 0 150px 0;
-  background-position: top center;
+  background-position: center;
 }
 
 .home-des3 h1 {

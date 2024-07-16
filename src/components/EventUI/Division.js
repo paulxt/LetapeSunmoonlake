@@ -12,7 +12,7 @@ const Division = ({language}) => {
     return (
         <section className="event-division">
             <Container>
-                <h2 className='event-title'><span><img className='title-icon' src={TitleIcon} alt="" /></span>{language === "Chinese" ? "活動組別" : "Event Category"}</h2>
+                <h2 className='event-title'><span><img className='title-icon' src={TitleIcon} alt="" /></span>{language === "Chinese" ? "活動組別" : "Race Course"}</h2>
                 <Row className='align-items-center'>
                     <Col>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">

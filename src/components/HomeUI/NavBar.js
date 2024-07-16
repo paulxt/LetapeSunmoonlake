@@ -97,8 +97,8 @@ const NavBar = ({ language, toggleLanguage}) => {
                     <div className="language">
                         <span onClick={toggleLanguage}>
                             {
-                                language === "Chinese" ?(<span>ENGLISH</span>)
-                                    : (<span>中文</span>)
+                                language === "Chinese" ? "ENGLISH"
+                                    : "中文"
                             }
                         </span>
                     </div>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1110e994.css",
-    "main.js": "/static/js/main.69f3888b.js",
+    "main.css": "/static/css/main.2cd77126.css",
+    "main.js": "/static/js/main.02252d58.js",
     "static/media/Intro.mp4": "/static/media/Intro.6d8ba1f52d316f043445.mp4",
     "static/media/about-letape-des-img5.jpg": "/static/media/about-letape-des-img5.5cb724eaa32788297ee5.jpg",
     "static/media/Alibaba-PuHuiTi-Regular.ttf": "/static/media/Alibaba-PuHuiTi-Regular.560e3e1f3b429a424119.ttf",
@@ -42,7 +42,6 @@
     "static/media/about-letape-photo7.png": "/static/media/about-letape-photo7.3ad7b0e0c87b9b91d453.png",
     "static/media/media-page-slides1-img4.png": "/static/media/media-page-slides1-img4.3ad7b0e0c87b9b91d453.png",
     "static/media/contact-banner-bg.jpg": "/static/media/contact-banner-bg.5eacba0ed5861712da62.jpg",
-    "static/media/home-des3-bg.png": "/static/media/home-des3-bg.6d7fc3a12d729d28f98c.png",
     "static/media/media-page-slides2-img4.png": "/static/media/media-page-slides2-img4.a30698567f87f0a99ddc.png",
     "static/media/about-letape-photo4.png": "/static/media/about-letape-photo4.f855c093c97c36cee245.png",
     "static/media/media-page-slides1-img15.png": "/static/media/media-page-slides1-img15.f855c093c97c36cee245.png",
@@ -138,12 +137,15 @@
     "static/media/event-highlight-img1.png": "/static/media/event-highlight-img1.6ba2f00f8cdb98fae683.png",
     "static/media/about-letape-des-img2.jpg": "/static/media/about-letape-des-img2.608e3123de26ff391964.jpg",
     "static/media/volunteer-banner-bg.JPG": "/static/media/volunteer-banner-bg.608e3123de26ff391964.JPG",
+    "static/media/route-104-slow-img1-eng.jpg": "/static/media/route-104-slow-img1-eng.dd6034c9f417381eef16.jpg",
     "static/media/route-104-slow-img1.jpg": "/static/media/route-104-slow-img1.e8e0133219204366cfca.jpg",
     "static/media/about-tdf-photo-gallery-image23.jpg": "/static/media/about-tdf-photo-gallery-image23.857103fb8c9dbe5bbe2a.jpg",
     "static/media/about-tdf-photo-gallery-image7.jpg": "/static/media/about-tdf-photo-gallery-image7.9bf372815d357581d8a3.jpg",
+    "static/media/home-des3-bg.jpg": "/static/media/home-des3-bg.a6c91f4e58a189e686e1.jpg",
     "static/media/about-tdf-photo-gallery-image13.jpg": "/static/media/about-tdf-photo-gallery-image13.cfe53879b870900204a3.jpg",
     "static/media/home-des-img-2-2.jpg": "/static/media/home-des-img-2-2.cfe53879b870900204a3.jpg",
     "static/media/route-104-spotlight-img4.jpg": "/static/media/route-104-spotlight-img4.833cc5d4f7c0990fbe3e.jpg",
+    "static/media/about-letape-bg.jpg": "/static/media/about-letape-bg.8667090400a54c2cbd19.jpg",
     "static/media/division-104k.png": "/static/media/division-104k.4a3d46db53e2dfc1a910.png",
     "static/media/banner-new-bg2.jpg": "/static/media/banner-new-bg2.01cf448db40b4265534b.jpg",
     "static/media/distance-img1.jpg": "/static/media/distance-img1.e494d7e004418a5d3703.jpg",
@@ -160,7 +162,7 @@
     "static/media/division-29k.png": "/static/media/division-29k.718a047db820f709e4b1.png",
     "static/media/about-letape-des-img3.jpg": "/static/media/about-letape-des-img3.0acd78504ba5b000eb84.jpg",
     "static/media/volunteer-gift-img1.png": "/static/media/volunteer-gift-img1.ee63010a31548a84844d.png",
-    "static/media/about-letape-bg.jpg": "/static/media/about-letape-bg.57a8fbd9aa59d489e013.jpg",
+    "static/media/volunteer-gift-img1-eng.png": "/static/media/volunteer-gift-img1-eng.ed84a9a4c3781b313545.png",
     "static/media/event-header-bg.jpg": "/static/media/event-header-bg.48078c7a2ca4fd80133f.jpg",
     "static/media/letape-sunmoonlake-banne2-bg.jpg": "/static/media/letape-sunmoonlake-banne2-bg.d8d567e57211d69263ba.jpg",
     "static/media/sign-up-gift-img1.png": "/static/media/sign-up-gift-img1.b2fbce38467e132a535b.png",
@@ -180,6 +182,7 @@
     "static/media/route-104-spotlight-img5.jpg": "/static/media/route-104-spotlight-img5.84559cce18f275f5abe1.jpg",
     "static/media/letape-sunmoonlake-season-img7.jpg": "/static/media/letape-sunmoonlake-season-img7.26777a6b1c1f2f192877.jpg",
     "static/media/letape-sunmoonlake-desc-img2.jpg": "/static/media/letape-sunmoonlake-desc-img2.ed70cb8446f99654d122.jpg",
+    "static/media/letape-sunmoonlake-desc-img1.jpg": "/static/media/letape-sunmoonlake-desc-img1.fb631bc9f24bebc7233c.jpg",
     "static/media/sign-up-gift-img3.png": "/static/media/sign-up-gift-img3.c9e526688969d372a2e5.png",
     "static/media/letape-sunmoonlake-season-img5.jpg": "/static/media/letape-sunmoonlake-season-img5.48d34fd05ded963679fb.jpg",
     "static/media/add-on-gift-img2.png": "/static/media/add-on-gift-img2.dc7289f5e06566fddd60.png",
@@ -207,7 +210,6 @@
     "static/media/Galibier-Bolditalic.otf": "/static/media/Galibier-Bolditalic.93e849ac52842ca3f07b.otf",
     "static/media/about-letape-banner-img2.png": "/static/media/about-letape-banner-img2.677b9c452e217fc859d4.png",
     "static/media/Galibier-Bold.otf": "/static/media/Galibier-Bold.3a4670f7dd4510f713e7.otf",
-    "static/media/letape-sunmoonlake-desc-img1.jpg": "/static/media/letape-sunmoonlake-desc-img1.7ffaa37d962ca363b828.jpg",
     "static/media/route-104-spotlight-img6.jpg": "/static/media/route-104-spotlight-img6.7ffaa37d962ca363b828.jpg",
     "static/media/about-tdf-timeline-img2.jpg": "/static/media/about-tdf-timeline-img2.756b59a250fe1d0ffef3.jpg",
     "static/media/about-tdf-timeline-img5.jpg": "/static/media/about-tdf-timeline-img5.583946a39bce25e5dff6.jpg",
@@ -225,6 +227,7 @@
     "static/media/about-letape-banner2-bg.png": "/static/media/about-letape-banner2-bg.91e4ee4c49b6ed209dc9.png",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/route-104-spotlight-img1.jpg": "/static/media/route-104-spotlight-img1.18d3dc9088c20d95d1b3.jpg",
+    "static/media/volunteer-header-img-eng.png": "/static/media/volunteer-header-img-eng.860de040b87a3e6e1db4.png",
     "static/media/partner-section-img15.jpg": "/static/media/partner-section-img15.d2db6b291b4102986737.jpg",
     "static/media/partner-section-img14.png": "/static/media/partner-section-img14.eb033e39e002e1813dac.png",
     "static/media/home-des1-img-2.png": "/static/media/home-des1-img-2.3ce51de42d9c9eb4ee16.png",
@@ -263,11 +266,11 @@
     "static/media/nav-icon3.svg": "/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/index.html",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.1110e994.css.map": "/static/css/main.1110e994.css.map",
-    "main.69f3888b.js.map": "/static/js/main.69f3888b.js.map"
+    "main.2cd77126.css.map": "/static/css/main.2cd77126.css.map",
+    "main.02252d58.js.map": "/static/js/main.02252d58.js.map"
   },
   "entrypoints": [
-    "static/css/main.1110e994.css",
-    "static/js/main.69f3888b.js"
+    "static/css/main.2cd77126.css",
+    "static/js/main.02252d58.js"
   ]
 }
