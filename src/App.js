@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -28,10 +28,11 @@ const TRACKING_ID = "G-F3GZ4H7DPY"; // your Measurement ID
 
 function App() {
   //Language Function
-  const [language, setLanguage] = useState("");
-  const toggleLanguage = (e) => {
+  const [language, setLanguage] = useState({});
+  const toggleLanguage = async (e) => {
     e.preventDefault();
-    setLanguage(prev => prev === "Chinese" ? "English" : "Chinese");
+    await setLanguage((prev) => 
+      prev === "Chinese" ? "English" : "Chinese");
   }
   useEffect(() => {
     document.body.className = language
@@ -123,7 +124,7 @@ function App() {
   
   return (
     <Router>
-      <NavBar language={language} toggleLanguage={toggleLanguage} />
+      <NavBar language={language} toggleLanguage={toggleLanguage}/>
       <Routes>
         {
           router.map((route, index) => (

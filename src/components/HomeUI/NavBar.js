@@ -60,7 +60,7 @@ const NavBar = ({ language, toggleLanguage}) => {
                             <NavDropdown.Item href='/letape-du-tour' eventKey="1.4">{language === 'Chinese'? "L’Étape錦標賽" : "L’Étape du Tour"}</NavDropdown.Item>
                             {/* <NavDropdown.Divider /> */}
                         </NavDropdown>
-                        <NavDropdown title={language === 'Chinese'? "活動資訊" : "INFORMAITON"} id="nav-dropdown">
+                        <NavDropdown title={language === 'Chinese'? "活動資訊" : "INFORMATION"} id="nav-dropdown">
                             <NavDropdown.Item eventKey="2.1" href={'/event-info'}>{language === 'Chinese'? "活動辦法" : "Event Rules"}</NavDropdown.Item>
                             <NavDropdown.Item eventKey="2.2" href='' >{language === 'Chinese'? "環法傳奇車手見面會" : "TDF Ambassador"}</NavDropdown.Item>
                             <NavDropdown.Item eventKey="2.3" href='/race-kit'>{language === 'Chinese'? "環法挑戰賽限定禮盒" : "Registration Gift"}</NavDropdown.Item>
