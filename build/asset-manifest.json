@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2cd77126.css",
-    "main.js": "/static/js/main.47ef3c08.js",
+    "main.js": "/static/js/main.ee07348c.js",
     "static/media/Intro.mp4": "/static/media/Intro.6d8ba1f52d316f043445.mp4",
     "static/media/about-letape-des-img5.jpg": "/static/media/about-letape-des-img5.5cb724eaa32788297ee5.jpg",
     "static/media/Alibaba-PuHuiTi-Regular.ttf": "/static/media/Alibaba-PuHuiTi-Regular.560e3e1f3b429a424119.ttf",
@@ -153,6 +153,7 @@
     "static/media/route-29-slow-img1-eng.jpg": "/static/media/route-29-slow-img1-eng.181e68c4610640e1c748.jpg",
     "static/media/route-29-slow-img1.jpg": "/static/media/route-29-slow-img1.8d38707c84b3a457a1b5.jpg",
     "static/media/race kit.png": "/static/media/race kit.9aa65a2c8834174abab6.png",
+    "static/media/gpx-104k.gpx": "/static/media/gpx-104k.d8f52a8db1f2fad88578.gpx",
     "static/media/finisher-gift-img1.png": "/static/media/finisher-gift-img1.5afae34b4609f98bdca9.png",
     "static/media/route-104-kom-img2.png": "/static/media/route-104-kom-img2.4e993727d8ada52c6843.png",
     "static/media/sign-up-gift-img2.png": "/static/media/sign-up-gift-img2.265bce9aeba2daefae99.png",
@@ -182,6 +183,7 @@
     "static/media/route-104-spotlight-img5.jpg": "/static/media/route-104-spotlight-img5.84559cce18f275f5abe1.jpg",
     "static/media/letape-sunmoonlake-season-img7.jpg": "/static/media/letape-sunmoonlake-season-img7.26777a6b1c1f2f192877.jpg",
     "static/media/letape-sunmoonlake-desc-img2.jpg": "/static/media/letape-sunmoonlake-desc-img2.ed70cb8446f99654d122.jpg",
+    "static/media/gpx-29k.gpx": "/static/media/gpx-29k.cdce0cc72f30a832b856.gpx",
     "static/media/letape-sunmoonlake-desc-img1.jpg": "/static/media/letape-sunmoonlake-desc-img1.fb631bc9f24bebc7233c.jpg",
     "static/media/sign-up-gift-img3.png": "/static/media/sign-up-gift-img3.c9e526688969d372a2e5.png",
     "static/media/letape-sunmoonlake-season-img5.jpg": "/static/media/letape-sunmoonlake-season-img5.48d34fd05ded963679fb.jpg",
@@ -267,10 +269,10 @@
     "index.html": "/index.html",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.2cd77126.css.map": "/static/css/main.2cd77126.css.map",
-    "main.47ef3c08.js.map": "/static/js/main.47ef3c08.js.map"
+    "main.ee07348c.js.map": "/static/js/main.ee07348c.js.map"
   },
   "entrypoints": [
     "static/css/main.2cd77126.css",
-    "static/js/main.47ef3c08.js"
+    "static/js/main.ee07348c.js"
   ]
 }
