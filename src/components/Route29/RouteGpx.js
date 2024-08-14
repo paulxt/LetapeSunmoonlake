@@ -1,7 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import React from 'react';
-
-
+import GpxDownload from '../../assets/gpx/gpx-29k.gpx';
 const RouteGpx = ({language}) => {
     return (
       <section className="route-gpx">
@@ -9,7 +8,7 @@ const RouteGpx = ({language}) => {
         <Container>
           <Row className='align-items-center'>
             <Col md={3}>
-            <h3 className='text-center'><a href="/#">{language === "Chinese" ? "★點我下載GPX檔★" : "★Tap to download GPX★"}</a></h3>
+            <h3 className='text-center'><a href={GpxDownload} download={'letape-sunmoonlake-29k-gpx'} >{language === "Chinese" ? "★點我下載GPX檔★" : "★Tap to download GPX★"}</a></h3>
               <h4 className='text-center'>{language === "Chinese" ? "如何匯入GPX檔至Google Maps？三步驟輕鬆做！" : "How to import GPX to your Google Maps?"}</h4>
               <div className="gpx-bx">
                 <p>❶ Step 1.</p>

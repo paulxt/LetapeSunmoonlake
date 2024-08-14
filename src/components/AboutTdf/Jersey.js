@@ -50,7 +50,7 @@ const Jersey = ({language}) => {
                             <div className="jer-txtx">
                                 <h4>Maillot Blanc</h4>
                                 <h4>{language === "Chinese" ? "白衫" : ""}</h4>
-                                <p className='px-3'>{language === "Chinese" ? "白色車衣或「Maillot Blanc」象徵著希望與未來潛力。這個獎項授予總級距中 25 歲以下的最優秀年輕騎手。白衫在環法早期短暫亮相後於 1975 年再次推出，其顏色象徵純潔和新鮮，彰顯了主車組中的青春活力和新興人才，標誌著這位自行車手成為未來之星。" : "The cyclist with the top speed and consistency across flat terrains and sprints is the wearer of the green jersey or 'Maillot Vert.' Since its inception in 1953, during the 50th anniversary of the Tour, the green jersey has been a symbol of the race's best sprinter, awarded on points earned in intermediate sprints and stage finishes. The choice of green was a nod to its original sponsor, a lawn mower manufacturer, linking the colour to speed and the sprinter's explosive energy across the green landscapes of France."}</p>
+                                <p className='px-3'>{language === "Chinese" ? "白色車衣或「Maillot Blanc」象徵著希望與未來潛力。這個獎項授予總級距中 25 歲以下的最優秀年輕騎手。白衫在環法早期短暫亮相後於 1975 年再次推出，其顏色象徵純潔和新鮮，彰顯了主車組中的青春活力和新興人才，標誌著這位自行車手成為未來之星。" : `The white jersey, or "Maillot Blanc," inspires hope and future potential. It's awarded to the best young rider, aged 25 or under, in the general classification. Reintroduced in 1975 after a brief appearance in the early years of the Tour, the white jersey's colour signifies purity and freshness, embodying youthful spirit and emerging talent within the peloton, marking this cyclist out as a future star.`}</p>
                             </div>
                         </div>
                     </Col>
