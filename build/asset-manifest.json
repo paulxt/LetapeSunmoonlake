@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2cd77126.css",
-    "main.js": "/static/js/main.ee07348c.js",
+    "main.js": "/static/js/main.cf057f86.js",
     "static/media/Intro.mp4": "/static/media/Intro.6d8ba1f52d316f043445.mp4",
     "static/media/about-letape-des-img5.jpg": "/static/media/about-letape-des-img5.5cb724eaa32788297ee5.jpg",
     "static/media/Alibaba-PuHuiTi-Regular.ttf": "/static/media/Alibaba-PuHuiTi-Regular.560e3e1f3b429a424119.ttf",
@@ -169,7 +169,6 @@
     "static/media/sign-up-gift-img1.png": "/static/media/sign-up-gift-img1.b2fbce38467e132a535b.png",
     "static/media/letape-sunmoonlake-season-img1.jpg": "/static/media/letape-sunmoonlake-season-img1.711ebecb85ec1cd77d1e.jpg",
     "static/media/add-on-gift-img4.png": "/static/media/add-on-gift-img4.5ab3d28ede97e20dbdff.png",
-    "static/media/size-map-img.png": "/static/media/size-map-img.51d4a8fcf62bcb7f2a48.png",
     "static/media/event-highlight-img2.png": "/static/media/event-highlight-img2.20fb5d7ddce80e018ba8.png",
     "static/media/sign-up-gift-img4.png": "/static/media/sign-up-gift-img4.4d6f292e8ef7e838dba6.png",
     "static/media/letape-sunmoonlake-season-img2.jpg": "/static/media/letape-sunmoonlake-season-img2.d46fc043d821c92de973.jpg",
@@ -216,6 +215,7 @@
     "static/media/about-tdf-timeline-img2.jpg": "/static/media/about-tdf-timeline-img2.756b59a250fe1d0ffef3.jpg",
     "static/media/about-tdf-timeline-img5.jpg": "/static/media/about-tdf-timeline-img5.583946a39bce25e5dff6.jpg",
     "static/media/event-procedure-img-eng.png": "/static/media/event-procedure-img-eng.dc03f887d6f7385f5b6b.png",
+    "static/media/size-map-img.png": "/static/media/size-map-img.2daa988780d3622dfb9e.png",
     "static/media/route-104-spotlight-img3.jpg": "/static/media/route-104-spotlight-img3.cb427063cbd2caac499c.jpg",
     "static/media/partner-section-img10.png": "/static/media/partner-section-img10.7cf80777bf0af67c727f.png",
     "static/media/home-des1-img-4.png": "/static/media/home-des1-img-4.ea12a158613a258751eb.png",
@@ -269,10 +269,10 @@
     "index.html": "/index.html",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
     "main.2cd77126.css.map": "/static/css/main.2cd77126.css.map",
-    "main.ee07348c.js.map": "/static/js/main.ee07348c.js.map"
+    "main.cf057f86.js.map": "/static/js/main.cf057f86.js.map"
   },
   "entrypoints": [
     "static/css/main.2cd77126.css",
-    "static/js/main.ee07348c.js"
+    "static/js/main.cf057f86.js"
   ]
 }
